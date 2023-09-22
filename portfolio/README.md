@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React TS Resume/Portfolio Website
+![image](https://github.com/JustJoeYo/reactts/assets/53631725/1c591d93-a01d-4b61-846d-907f28762ad6)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/JustJoeYo/reactts?include_prereleases">
 
-In the project directory, you can run:
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JustJoeYo/reactts?style=flat">
 
-### `npm start`
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/JustJoeYo/reactts?style=flat&color=success">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/JustJoeYo/reactts?style=flat&color=yellow">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/JustJoeYo/reactts/react?style=flat">
 
-### `npm test`
+<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/JustJoeYo?style=flat&color=blueviolet">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### View a [live demo here.](https://spbeal.github.io/reactjs/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Created & Maintained By
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Samuel Beal
 
-### `npm run eject`
+[![GitHub followers](https://img.shields.io/github/followers/JustJoeYo.svg?style=social&label=Follow)](https://github.com/JustJoeYo/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Stargazers
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![Stargazers repo roster for @JustJoeYo/reactts](https://reporoster.com/stars/dark/JustJoeYo/reactts)](https://github.com/JustJoeYo/reactts)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Forkers
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Forkers repo roster for @JustJoeYo/reactts](https://reporoster.com/forks/dark/JustJoeYo/reactts)](https://github.com/JustJoeYo/reactts/network/members)

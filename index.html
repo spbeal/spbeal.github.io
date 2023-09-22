@@ -20,12 +20,12 @@
             .join("?");
           window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
         }
-      })(window.location);
+      })(window.location); //Make a new page on github
     </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/index.js"></script>
   </body>
 </html>

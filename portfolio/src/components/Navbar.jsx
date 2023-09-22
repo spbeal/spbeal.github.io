@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react'
-import Logo from '../assets/SB design pink.png'
+import Logo from '../assets/pink design fixed.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -20,10 +20,10 @@ const Navbar = () => {
             <ul className='hidden md:flex mx-2 gap-x-5'>
                 <li>Home</li>
                 <li>About</li>
-                <li>Skills</li>
-                <li>Education</li>
                 <li>Experience</li>
-                <li>Contact</li>
+                <li>Education</li>
+                <li>Skills</li>
+                <li>Contact</li> {/* Could combine About with Contact */}
 
             </ul>
 

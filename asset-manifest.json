@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/reactjs/static/css/main.72f2d795.css",
-    "main.js": "/reactjs/static/js/main.8706d5bb.js",
+    "main.css": "/reactjs/static/css/main.442242f1.css",
+    "main.js": "/reactjs/static/js/main.1031ca13.js",
     "static/media/pink design fixed.png": "/reactjs/static/media/pink design fixed.273048c551aa23a35ee1.png",
     "index.html": "/reactjs/index.html",
-    "main.72f2d795.css.map": "/reactjs/static/css/main.72f2d795.css.map",
-    "main.8706d5bb.js.map": "/reactjs/static/js/main.8706d5bb.js.map"
+    "main.442242f1.css.map": "/reactjs/static/css/main.442242f1.css.map",
+    "main.1031ca13.js.map": "/reactjs/static/js/main.1031ca13.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f2d795.css",
-    "static/js/main.8706d5bb.js"
+    "static/css/main.442242f1.css",
+    "static/js/main.1031ca13.js"
   ]
 }

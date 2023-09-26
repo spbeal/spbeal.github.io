@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/reactjs/static/css/main.ea6ec5e8.css",
-    "main.js": "/reactjs/static/js/main.0f55908d.js",
+    "main.css": "/reactjs/static/css/main.11ce6711.css",
+    "main.js": "/reactjs/static/js/main.8326a42c.js",
+    "static/media/react.png": "/reactjs/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/python.png": "/reactjs/static/media/python.7b8efdd9ba95c9d1613c.png",
     "static/media/html.png": "/reactjs/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/c++.png": "/reactjs/static/media/c++.9d2158e2c62e36bef045.png",
     "static/media/pink design fixed.png": "/reactjs/static/media/pink design fixed.273048c551aa23a35ee1.png",
+    "static/media/javascript.png": "/reactjs/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reactjs/index.html",
-    "main.ea6ec5e8.css.map": "/reactjs/static/css/main.ea6ec5e8.css.map",
-    "main.0f55908d.js.map": "/reactjs/static/js/main.0f55908d.js.map"
+    "main.11ce6711.css.map": "/reactjs/static/css/main.11ce6711.css.map",
+    "main.8326a42c.js.map": "/reactjs/static/js/main.8326a42c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea6ec5e8.css",
-    "static/js/main.0f55908d.js"
+    "static/css/main.11ce6711.css",
+    "static/js/main.8326a42c.js"
   ]
 }

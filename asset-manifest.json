@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/reactjs/static/css/main.11ce6711.css",
-    "main.js": "/reactjs/static/js/main.8326a42c.js",
+    "main.css": "/reactjs/static/css/main.23af1304.css",
+    "main.js": "/reactjs/static/js/main.546b5fd9.js",
+    "static/media/goats.jpeg": "/reactjs/static/media/goats.5466cd1f262d56861b82.jpeg",
+    "static/media/realestate.jpg": "/reactjs/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/workImg.jpeg": "/reactjs/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/reactjs/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/python.png": "/reactjs/static/media/python.7b8efdd9ba95c9d1613c.png",
     "static/media/html.png": "/reactjs/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -9,11 +12,11 @@
     "static/media/pink design fixed.png": "/reactjs/static/media/pink design fixed.273048c551aa23a35ee1.png",
     "static/media/javascript.png": "/reactjs/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reactjs/index.html",
-    "main.11ce6711.css.map": "/reactjs/static/css/main.11ce6711.css.map",
-    "main.8326a42c.js.map": "/reactjs/static/js/main.8326a42c.js.map"
+    "main.23af1304.css.map": "/reactjs/static/css/main.23af1304.css.map",
+    "main.546b5fd9.js.map": "/reactjs/static/js/main.546b5fd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.11ce6711.css",
-    "static/js/main.8326a42c.js"
+    "static/css/main.23af1304.css",
+    "static/js/main.546b5fd9.js"
   ]
 }

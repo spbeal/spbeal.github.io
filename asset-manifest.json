@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjs/static/css/main.2f102f09.css",
-    "main.js": "/reactjs/static/js/main.b2fe14a6.js",
+    "main.css": "/reactjs/static/css/main.660587ba.css",
+    "main.js": "/reactjs/static/js/main.a8dd3d6a.js",
     "static/media/goats.jpeg": "/reactjs/static/media/goats.5466cd1f262d56861b82.jpeg",
     "static/media/realestate.jpg": "/reactjs/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/workImg.jpeg": "/reactjs/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
@@ -12,11 +12,11 @@
     "static/media/pink design fixed.png": "/reactjs/static/media/pink design fixed.273048c551aa23a35ee1.png",
     "static/media/javascript.png": "/reactjs/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reactjs/index.html",
-    "main.2f102f09.css.map": "/reactjs/static/css/main.2f102f09.css.map",
-    "main.b2fe14a6.js.map": "/reactjs/static/js/main.b2fe14a6.js.map"
+    "main.660587ba.css.map": "/reactjs/static/css/main.660587ba.css.map",
+    "main.a8dd3d6a.js.map": "/reactjs/static/js/main.a8dd3d6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f102f09.css",
-    "static/js/main.b2fe14a6.js"
+    "static/css/main.660587ba.css",
+    "static/js/main.a8dd3d6a.js"
   ]
 }

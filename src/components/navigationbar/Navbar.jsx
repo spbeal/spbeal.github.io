@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link to="home" smooth={true} duration={500} >
                 Home
               </Link>
-                </li>
+              </li>
                 <li>
                 <Link to="about" smooth={true} duration={500} >
                 About
@@ -43,7 +43,6 @@ const Navbar = () => {
                 Contact
               </Link>
               </li> {/* Could combine About with Contact */}
-
             </ul>
 
         {/* Hamburger */} 
@@ -84,39 +83,6 @@ const Navbar = () => {
               </Link>
               </li> 
          </ul>
-
-         {/* Social icons */}
-         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-          <ul>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-              <a className='mx-3.5 flex justify-between items-center w-full text-gray-300' 
-              href="https://www.linkedin.com/in/samuelbeal/">
-                Linkedin <FaLinkedin size={30}/>
-              </a>
-            </li> 
-
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-              <a className='mx-3.5 flex justify-between items-center w-full text-gray-300' 
-              href="https://github.com/spbeal">
-                Github <FaGithub size={30}/>
-              </a>
-            </li> 
-        
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-              <a className='mx-3.5 flex justify-between items-center w-full text-gray-300' 
-              href="mailto:sampbeal@gmail.com">
-                Email <HiOutlineMail size={30}/>
-              </a>
-            </li> 
-
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-              <a className='mx-3.5 flex justify-between items-center w-full text-gray-300' 
-              href="/">
-                Resume <BsFillPersonLinesFill size={30}/>
-              </a>
-            </li> 
-          </ul>
-        </div>
     </div>
   )
 }

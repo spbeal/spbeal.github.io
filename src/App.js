@@ -7,24 +7,10 @@ import Contact from "./components/pages/Contact";
 import Work from "./components/pages/Work";
 import PageNotFound from "./components/pages/PageNotFound";
 import Resume from "./components/pages/resume";
+import {Routes, Route} from 'react-router-dom'
 
 import {createBrowserRouter } from 'react-router-dom'
 
-const router = createBrowserRouter([
-  {
-    path: "/reactjs/",
-    children: [
-        {
-          path: "/reactjs/resume",
-          element: <Resume/>,
-        },
-        {
-          path: "/reactjs/*",
-          element: <PageNotFound />,
-        }
-    ]
-  }
-]);
 
 
 function App() {
@@ -38,7 +24,17 @@ function App() {
       <Education/>
       <Contact/>
     </div>
+
   );
 }
 
 export default App;
+{/*
+        <Route path = '/' element = {<About/>}/>
+        <Route path = '/' element = {<About/>}/>
+        <Route path = '/' element = {<Skills/>}/>
+        <Route path = '/' element = {<Work/>}/>
+        <Route path = '/' element = {<Education/>}/>
+        <Route path = '/' element = {<Contact/>}/>
+      
+      */}

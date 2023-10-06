@@ -13,8 +13,7 @@ const Home = () => {
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full md:text-center'>
-        <p className='text-pink-600'>Hi, I am </p>
-        <h1 className='text-4xl text-7x1 font-bold text-[#ccd6f6]'>Samuel Beal</h1>
+        <h1 className='text-4xl text-7x1 font-bold text-[#ccd6f6] sm:block border-b-4 border-pink-600'>Samuel Beal</h1>
 
         <div className=''>
         <p className=" mt-2 mb-3 text-2xl pt-1 font-extrabold tracking-tight text-text-color sm:text-4xl flex">
@@ -43,7 +42,7 @@ const Home = () => {
         <p className=" hidden md:block text-2xl font-bold pt-1 text-stone-300 ">&lt;/<span className="text-xl pt-1 font-extrabold text-pink-600">div</span>&gt;</p>
       </p>
     </div>
-        <p className='leading-8 text-[#8892b0] py-2 max-w-[700px]'> I'm a 2.5 year computer science student at University of Idaho. I am actively learning in C++ collaborating on
+        <p className='leading-8 text-[#8892b0] py-2 max-w-[700px]'> 2.5 year Computer Science Student at University of Idaho. I am actively learning in C++ collaborating on
           various projects with peers to expand my expertise. </p>
 
           {/* Social icons */}

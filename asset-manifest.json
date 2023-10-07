@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/reactjs/static/css/main.47dbc317.css",
-    "main.js": "/reactjs/static/js/main.c9ebe98a.js",
+    "main.js": "/reactjs/static/js/main.d3a65e90.js",
     "static/media/goats.jpeg": "/reactjs/static/media/goats.5466cd1f262d56861b82.jpeg",
     "static/media/universityofidaho.png": "/reactjs/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/realestate.jpg": "/reactjs/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/workImg.jpeg": "/reactjs/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/10996469_web1_4002128_web1_logo-grc.jpg": "/reactjs/static/media/10996469_web1_4002128_web1_logo-grc.c6167d3f5a19f5c947fc.jpg",
+    "static/media/2-folder-png-image-515033194.png": "/reactjs/static/media/2-folder-png-image-515033194.1a277ace0f100d31da16.png",
     "static/media/react.png": "/reactjs/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/python.png": "/reactjs/static/media/python.7b8efdd9ba95c9d1613c.png",
     "static/media/html.png": "/reactjs/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -15,10 +16,10 @@
     "static/media/javascript.png": "/reactjs/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reactjs/index.html",
     "main.47dbc317.css.map": "/reactjs/static/css/main.47dbc317.css.map",
-    "main.c9ebe98a.js.map": "/reactjs/static/js/main.c9ebe98a.js.map"
+    "main.d3a65e90.js.map": "/reactjs/static/js/main.d3a65e90.js.map"
   },
   "entrypoints": [
     "static/css/main.47dbc317.css",
-    "static/js/main.c9ebe98a.js"
+    "static/js/main.d3a65e90.js"
   ]
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import WorkImg from '../../assets/projects/workImg.jpeg'
 import realEstate from '../../assets/projects/realestate.jpg'
 import goatFile from '../../assets/goats.jpeg'
+// import DownloadsPic from '../../assets/2-folder-png-image-515033194.png'
+import DownloadsPic from '../../assets/Cleandownloads.png'
 
 const Work = () => {
   return (
@@ -12,7 +14,23 @@ const Work = () => {
                 <p className='py-6'>// Check out some of my recent work</p>
             </div>
             {/* Container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='text-center grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    <div 
+                    style={{backgroundImage: `url(${DownloadsPic})`}} 
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Python Automation 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/spbeal/CleanDownloads">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                    </div>
+                  </div>
+                </div>
                 <div 
                 style={{backgroundImage: `url(${goatFile})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -36,7 +54,6 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
 
         </div>

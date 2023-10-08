@@ -4,7 +4,11 @@ module.exports = {
   mode: 'jit',
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      scale:{
+        '120': '1.20',
+      }
+    },
   },
   plugins: [],
 }

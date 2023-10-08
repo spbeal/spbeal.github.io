@@ -1,4 +1,4 @@
-# React JS Resume/Portfolio Website
+# React JS Portfolio Website
 
 ![image](https://github.com/spbeal/reactjs/blob/main/src/assets/demoimage.png)
 

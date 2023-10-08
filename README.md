@@ -1,6 +1,6 @@
 # React TS Resume/Portfolio Website
 
-![image](https://github.com/spbeal/reactjs/blob/main/src/assets/chrome_38YUznEBfN.png)
+![image](https://github.com/spbeal/reactjs/blob/main/src/assets/demoimage.png)
 
 <div align="center">
 

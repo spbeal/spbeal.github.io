@@ -1,4 +1,4 @@
-# React TS Resume/Portfolio Website
+# React JS Resume/Portfolio Website
 
 ![image](https://github.com/spbeal/reactjs/blob/main/src/assets/demoimage.png)
 

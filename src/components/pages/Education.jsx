@@ -1,6 +1,6 @@
 import React from 'react'
 import Uidaho from '../../assets/universityofidaho.png'
-import GRC from '../../assets/10996469_web1_4002128_web1_logo-grc.jpg'
+import GRC from '../../assets/Green River College.jpg'
 
 const Education = () => {
   return (

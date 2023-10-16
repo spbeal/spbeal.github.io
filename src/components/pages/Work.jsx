@@ -20,7 +20,7 @@ const Work = () => {
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Python Automation 
+                            Clean Downloads Folder 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://github.com/spbeal/CleanDownloads">

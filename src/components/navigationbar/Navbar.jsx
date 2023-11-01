@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         {/* menu */}
         <div className=''>
-        <ul className='hidden md:flex mx-2 gap-x-5 cursor-pointer'>
+        <ul className='hidden md:flex text-lg mx-2 gap-x-5 cursor-pointer'>
                 <li>
                 <Link to="home" smooth={true} duration={500} >
                 Home
@@ -41,11 +41,11 @@ const Navbar = () => {
                 Skills
               </Link>
                 </li>
-                <li>
+                {/* <li>
                 <Link to="work" smooth={true} duration={500} >
                 Work
               </Link>
-                </li>
+                </li> */}
                 <li>
                 <Link to="contact" smooth={true} duration={500} >
                 Contact

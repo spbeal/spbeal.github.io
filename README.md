@@ -18,7 +18,7 @@
 
 </div>
 
-### View a [live demo here.](https://spbeal.github.io/reactjs/)
+### View a [live demo here.](https://sambeal.dev)
 
 ## Project Created & Maintained By
 

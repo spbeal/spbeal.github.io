@@ -26,10 +26,4 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/spbeal.svg?style=social&label=Follow)](https://github.com/spbeal/)
 
-## Stargazers
 
-[![Stargazers repo roster for @spbeal/reactjs](https://reporoster.com/stars/dark/spbeal/reactjs)](https://github.com/spbeal/reactjs)
-
-## Forkers
-
-[![Forkers repo roster for @spbeal/reactjs](https://reporoster.com/forks/dark/spbeal/reactjs)](https://github.com/spbeal/reactjs/network/members)

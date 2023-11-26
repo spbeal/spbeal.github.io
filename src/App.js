@@ -6,7 +6,6 @@ import Education from "./components/pages/Education";
 import Contact from "./components/pages/Contact";
 import Work from "./components/pages/Work";
 import PageNotFound from "./components/pages/PageNotFound";
-import Resume from "./components/pages/resume";
 import {Routes, Route} from 'react-router-dom'
 
 import {createBrowserRouter } from 'react-router-dom'
@@ -21,7 +20,7 @@ function App() {
       <About />
       <Education/>
       <Skills/>
-      {/* <Work/> */}
+      <Work/>
       <Contact/>
     </div>
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjs/static/css/main.ac634237.css",
-    "main.js": "/reactjs/static/js/main.221d8918.js",
+    "main.css": "/reactjs/static/css/main.d7afa179.css",
+    "main.js": "/reactjs/static/js/main.17d85123.js",
     "static/media/goats.jpeg": "/reactjs/static/media/goats.5466cd1f262d56861b82.jpeg",
     "static/media/universityofidaho.png": "/reactjs/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/python.png": "/reactjs/static/media/python.91072be85b01ef0961a8.png",
@@ -17,11 +17,11 @@
     "static/media/SB nice color.png": "/reactjs/static/media/SB nice color.273048c551aa23a35ee1.png",
     "static/media/javascript.png": "/reactjs/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reactjs/index.html",
-    "main.ac634237.css.map": "/reactjs/static/css/main.ac634237.css.map",
-    "main.221d8918.js.map": "/reactjs/static/js/main.221d8918.js.map"
+    "main.d7afa179.css.map": "/reactjs/static/css/main.d7afa179.css.map",
+    "main.17d85123.js.map": "/reactjs/static/js/main.17d85123.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac634237.css",
-    "static/js/main.221d8918.js"
+    "static/css/main.d7afa179.css",
+    "static/js/main.17d85123.js"
   ]
 }

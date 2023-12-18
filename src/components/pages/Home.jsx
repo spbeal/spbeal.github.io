@@ -2,6 +2,8 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { TypeAnimation } from 'react-type-animation';
 import {Link} from 'react-scroll'
+import Sam from '../../assets/Good pfp.jpg'
+import SamBlob from '../../assets/blobimageofme.png'
 
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
 import {HiOutlineMail} from 'react-icons/hi'
@@ -12,35 +14,11 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-almond'> 
 
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full text-xl leading-8'>
+      <div className='max-w-[1000px] grid grid-cols-2  mx-auto px-8 flex flex-col justify-left items-center h-full text-xl leading-8'>
+
+      <div>
         <h1 className='text-4xl font-bold sm:block border-b-4 border-pink-600'>Samuel Beal</h1>
-
-        {/* <p className=" mt-2 mb-3 text-2xl pt-1 font-extrabold tracking-tight text-text-color sm:text-4xl flex">
-        <p className=" hidden md:block whitespace-nowrap text-3xl font-extrabold">&lt;<span className="font-extrabold text-xl text-pink-600">div</span>&gt;
-        <span className="text-2xl mx-2 font-extrabold leading-7 text-[]">I build</span></p>
-        <p className=" hidden md:block text-xs pt-3 font-black tracking-wide ">
-        <TypeAnimation
-                  
-          sequence={[
-          'Quality of Life Applications',
-            1000,
-          'Websites',
-            1000,
-          'Small Games',
-            1000,
-          'Any and All Things!',
-            1000
-        ]}
-          wrapper="span"
-          speed={50}
-          style={{ fontSize: '2em', display: 'inline-block' }}
-          repeat={Infinity}
-          />
-        </p>
-
-        <p className=" hidden md:block text-2xl font-bold pt-1  ">&lt;/<span className="text-xl pt-1 font-extrabold text-pink-600">div</span>&gt;</p>
-      </p> */}
-        <p className='hidden md:block text-center text-xl leading-8  py-2 max-w-[700px] '> 
+        <p className='hidden md:block text-left text-xl leading-8  py-2 max-w-[700px] '> 
         I am a Computer Science Student at University of Idaho. 
         Experienced in C++, basic python, and basic web development. When I'm not studying, 
         I am out with friends, playing water polo, or programming a new project 
@@ -52,34 +30,38 @@ const Home = () => {
         I am out with friends, playing water polo, or programming a new project 
          </p>
 
+
          <p classname=''>
             My portfolio is at
            <a href='https://sambeal.dev/portfolio/'> sambeal.dev/portfolio</a>
         </p>
+
+
           {/* Social icons */}
-          <div className='py-4 grid grid-cols-2 text-4xl font-bold inline'>
+          <div className='py-4 grid grid-cols-2 text-4xl font-bold'>
             <div className='mx-3 '>
             <a className='' 
               href="https://www.linkedin.com/in/samuelbeal/">
                 <FaLinkedin size={30}/>
               </a>
             </div>
-            <div className='mx-3 '>
+            <div className='mx-3'>
             <a className='' 
               href="https://github.com/spbeal">
                 <FaGithub size={30}/>
               </a>
-              {/**
-              <div className='mx-3 '>
-            <a className='' 
-              href='/resume'>
-                <BsFillPersonLinesFill size={30}/>
-              </a>
-            </div>
-               */}
             </div>
           </div>
 
+         </div>
+    
+        <div className=''>
+          <img 
+          className='h-72 mx-auto' 
+          src={SamBlob} 
+          alt='Me'>
+          </img>
+        </div>
 
       </div>
     </div>

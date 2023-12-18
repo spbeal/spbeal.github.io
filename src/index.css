@@ -28,3 +28,16 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.blobpattern {
+  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNzk4LjUgNjk3cS03MS41IDE5Ny0yOTMgMTg3dC0zMTUtMTk3cS05My41LTE4Ny03LTM4Ni41VDQ4NyAxMjRxMjE3IDIzIDMwMCAxOTkuNVQ3OTguNSA2OTdaIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNCOTNENzQiIHN0cm9rZS13aWR0aD0iMjAiIGQ9Ik03OTguNSA2OTdxLTcxLjUgMTk3LTI5MyAxODd0LTMxNS0xOTdxLTkzLjUtMTg3LTctMzg2LjVUNDg3IDEyNHEyMTcgMjMgMzAwIDE5OS41VDc5OC41IDY5N1oiLz48L2c+PC9zdmc+);
+}
+
+.magicpattern { 
+  width: 35%;
+  height: 35%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M798.5 697q-71.5 197-293 187t-315-197q-93.5-187-7-386.5T487 124q217 23 300 199.5T798.5 697Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22none%22 stroke=%22%23B93D74%22 stroke-width=%2220%22 d=%22M798.5 697q-71.5 197-293 187t-315-197q-93.5-187-7-386.5T487 124q217 23 300 199.5T798.5 697Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}

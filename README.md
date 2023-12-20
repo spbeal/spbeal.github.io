@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![image](https://github.com/spbeal/2D-Platformer-Raylib/blob/main/resources/2D_Platformer_QjdAii7a0L.png)
+![image](https://github.com/spbeal/reactjs/blob/main/src/assets/demoimage.png)
 
 <div align="center">
 

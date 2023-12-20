@@ -6,7 +6,7 @@
 
 <img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/spbeal/reactjs?include_prereleases">
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/spbeal/reactjs?style=flat">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/spbeal/spbeal.github.io?style=flat">
 
 <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/spbeal/reactjs?style=flat&color=success">
 

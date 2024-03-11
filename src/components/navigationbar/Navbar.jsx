@@ -53,6 +53,9 @@ const Navbar = () => {
                 Contact
               </Link>
               </li> {/* Could combine About with Contact */}
+              <li>
+                <a href='https://sambeal.dev/portfolio/'> Portfolio</a>
+                </li>
             </ul>
         </div>
 
@@ -65,7 +68,7 @@ const Navbar = () => {
          <ul className = {
           !nav 
           ? 'hidden' 
-          : ' absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'
+          : ' absolute top-0 left-0 w-full h-screen bg-almond-700 flex flex-col justify-center items-center'
           }
         >
             <li className='py-6 text-4xl'>
@@ -79,25 +82,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="education" smooth={true} duration={500} >
-                Education
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500} >
-                Skills
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="work" smooth={true} duration={500} >
-                Work
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
             <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
                 Contact
               </Link>
               </li> 
+              <li className='py-6 text-4xl'>
+                <a href='https://sambeal.dev/portfolio/'> Portfolio</a>
+                </li>
          </ul>
     </div>
   )

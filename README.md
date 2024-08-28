@@ -1,6 +1,5 @@
 # Portfolio Website
 
-![image](https://github.com/spbeal/reactjs/blob/main/src/assets/demoimage.png)
 
 <div align="center">
 

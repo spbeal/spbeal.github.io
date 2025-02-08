@@ -8,6 +8,8 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 
 
+
+
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
@@ -16,9 +18,9 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-almond-700 ">
       {/* <div className="fixed px-4 bg-[#0a192f] text-gray-300"> */}
        <div>
-              <Link to="home" smooth={true} duration={500} >
-              <img src={Logo} alt="Logo" style={{width: '60px'}} />
-              </Link>
+          <a href="https://sambeal.dev/">
+            <img src={Logo} alt="Logo" style={{ width: "60px" }} />
+          </a>
         </div>
         {/* menu */}
         <div className=''>

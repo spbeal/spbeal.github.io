@@ -8,13 +8,18 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@truffle/hdwallet-provider": "^1.0.41-1",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.1.0",
+    "styled-components": "^6.1.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -18,16 +18,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  opacity: 1;
   height: 250px;
 }
-
 .content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.2),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
+/* .content-div:hover {
   background-image: linear-gradient(
     to right,
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   )!important;
-}
+} */
 
 .blobpattern {
   -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNzk4LjUgNjk3cS03MS41IDE5Ny0yOTMgMTg3dC0zMTUtMTk3cS05My41LTE4Ny03LTM4Ni41VDQ4NyAxMjRxMjE3IDIzIDMwMCAxOTkuNVQ3OTguNSA2OTdaIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNCOTNENzQiIHN0cm9rZS13aWR0aD0iMjAiIGQ9Ik03OTguNSA2OTdxLTcxLjUgMTk3LTI5MyAxODd0LTMxNS0xOTdxLTkzLjUtMTg3LTctMzg2LjVUNDg3IDEyNHEyMTcgMjMgMzAwIDE5OS41VDc5OC41IDY5N1oiLz48L2c+PC9zdmc+);

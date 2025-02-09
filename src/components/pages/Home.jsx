@@ -1,9 +1,11 @@
 import React from "react";
+import Contact from "./Contact";
+import { Helmet } from "react-helmet";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
-import { Link } from "react-scroll";
-import Sam from "../../assets/Good pfp.jpg";
-import SamBlob from "../../assets/blobimageofme.png";
+import { Link } from "react-router-dom";
+import Sam from "../../assets/2023-2024/Good pfp.jpg";
+import SamBlob from "../../assets/2023-2024/blobimageofme.png";
 
 import {
   FaBars,
@@ -19,9 +21,12 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 }
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-almond">
+    <div name="home" className="w-full min-h-screen ">
+      <Helmet>
+        <title>Home - Samuel</title>
+      </Helmet>
       {/* Container */}
-      <div className="w-full mx-auto px-8 flex flex-col items-center justify-center h-full text-xl leading-8">
+      <div className="w-full mx-auto px-8 flex flex-col items-center justify-center min-h-screen text-xl leading-8">
         <div className="hidden sm:block">
           <div className=" grid grid-cols-2">
             <div>
@@ -57,7 +62,7 @@ const Home = () => {
         </div>
 
         {/* Mobile */}
-        <div className="sm:hidden">
+        <div className="sm:hidden pt-16">
           <div>
             <div className="">
               <img className="h-72 mx-auto " src={SamBlob} alt="Me"></img>

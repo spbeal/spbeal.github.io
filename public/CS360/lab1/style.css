@@ -1,0 +1,57 @@
+li {
+  display: inline;
+}
+    li {
+      float: left;
+    }
+    
+    li a{
+	display: block;
+	color: gray;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #9999ff;
+	color: #000000;
+}
+
+.active{
+	background-color: #00001a;
+}
+    
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+    
+    #index #menu .index, #about #menu .about,#portfolio #menu .portfolio, #contact #menu .contact, #signin #menu .signin, #signup #menu .signup {
+  font-weight: bold;
+}
+    #terms #footer .terms, #privacy #footer .privacy, #cookie #footer .cookie {
+  font-weight: bold;
+}

@@ -3,20 +3,20 @@ import { Helmet } from "react-helmet";
 
 import SamBlob from "../../assets/2023-2024/blobimageofme.png";
 
-import Education from "./portfolio/Education";
-import Skills from "./portfolio/Skills";
+import Education from "./combine/Education";
+import Skills from "./combine/Skills";
 
 const About = () => {
   return (
-    <div name="about" className="w-full">
+    <div name="about" className="w-full min-h-screen ">
       <Helmet>
         <title>About - Samuel</title>
       </Helmet>
-      <div className="flex flex-col mx-auto p-4 justify-center items-center w-full h-full pt-12">
+      <div className="flex flex-col mx-auto p-4 justify-center items-center w-full min-h-screen pt-24 pb-96 ">
         {/* <div className="">
                 <img className="h-72 mx-auto " src={SamBlob} alt="Me"></img>
           </div> */}
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 pt-24">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
 
           <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
@@ -31,10 +31,10 @@ const About = () => {
           </div>
           <div>
             <p className="text-lg ">
-              I am a junior studying Computer Science
+              I am a senior studying Computer Science
               at University of Idaho. During my free time I'm always looking for
               ways to further develop my abilities through building useful
-              applications. Lately I have been building projects in C++ or
+              applications. Lately I have been building projects in C and
               Python.
             </p>
           </div>

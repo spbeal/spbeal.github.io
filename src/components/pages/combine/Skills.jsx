@@ -14,11 +14,11 @@ import PythonImg from '../../../assets/2023-2024/python.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full'>
+    <div name='skills' className='w-full min-h-screen'>
        {/*Container */}
         <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
+                <p className='text-3xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
                 <p className='py-4 text-lg pl-5'> These are some of the technologies I've worked with </p>
             </div>
 

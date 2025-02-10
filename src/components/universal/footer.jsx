@@ -3,6 +3,8 @@ import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 import Contact from "../pages/Contact";
 import { Link } from "react-router-dom";
+import Resume from "../../assets/resume.pdf";
+import ResumeViewer from '../resume';
 
 const Footer = () => {
   return (
@@ -32,6 +34,25 @@ const Footer = () => {
                                     <Link to="/contact" smooth={true} duration={500} >
                                     Contact Me
                                     </Link>
+                                    </li> 
+                                    {/* <li>
+                                    <Link to="/resources/resume.pdf" smooth={true} duration={500} >
+                                    Resume
+                                    </Link>
+                                    </li>  */}
+                                    <li>
+                                    <a href={Resume} download="My_Resume.pdf">
+                                        Resume
+                                        {/* <button className="px-4 py-2 bg-pink-600 text-white rounded-md">
+                                            Download Resume
+                                        </button> */}
+                                    </a>
+    {/* <ResumeViewer></ResumeViewer> */}
+                                    {/* <a href="/resources/resume.pdf" target="_blank" rel="noopener noreferrer" >
+                                        <button className="px-4 py-2 bg-blue-600 text-white rounded-md">
+                                            View Resume
+                                        </button>
+                                    </a> */}
                                     </li> 
                                 </ul>
                             </nav>

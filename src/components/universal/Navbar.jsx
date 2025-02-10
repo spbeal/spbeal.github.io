@@ -49,6 +49,12 @@ const Navbar = () => {
                 </Link>
               </li> 
 
+              <li>
+                <Link to="/portfolio" smooth={true} duration={500} >
+                Portfolio
+                </Link>
+              </li> 
+
               {/* <li>
                 <a href='https://sambeal.dev/portfolio/' className="hover:text-blue-500"> Portfolio</a>
                 </li> */}
@@ -88,6 +94,12 @@ const Navbar = () => {
               <li className='py-6 text-4xl'>
             <Link onClick={handleClick} to="/blog" smooth={true} duration={500} >
                 Blog
+              </Link>
+              </li> 
+
+              <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to="/portfolio" smooth={true} duration={500} >
+                Portfolio
               </Link>
               </li> 
 

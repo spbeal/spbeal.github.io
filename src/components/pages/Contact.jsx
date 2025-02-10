@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
-    <div name = 'contact' className='wfull min-h-screen flex justify-center items-center p-4'>
+    <div name = 'contact' className='wfull min-h-screen flex justify-center items-center p-4 pt-24'>
       <Helmet>
         <title>Contact - Samuel</title>
       </Helmet>

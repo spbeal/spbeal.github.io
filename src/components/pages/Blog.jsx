@@ -6,62 +6,62 @@ import styled from 'styled-components';
 const Blog = () => {
 
   const posts = [
-    { 
-      id: 1, 
-      title: "Learning React", 
-      content: "React is a powerful JavaScript library...", 
-      datePosted: "2025-02-08", 
-      link: "/blog/learning-react" 
-    },
-    { 
-      id: 2, 
-      title: "Understanding JavaScript Closures", 
-      content: "Closures are an important concept in JavaScript...", 
-      datePosted: "2025-01-15", 
-      link: "/blog/javascript-closures" 
-    },
-    { 
-      id: 3, 
-      title: "Web Development Trends in 2025", 
-      content: "In 2025, the web development industry will focus on...", 
-      datePosted: "2025-02-01", 
-      link: "/blog/web-development-trends-2025" 
-    },
-    { 
-      id: 4, 
-      title: "CSS Flexbox for Beginners", 
-      content: "Flexbox is a layout model in CSS...", 
-      datePosted: "2024-12-25", 
-      link: "/blog/css-flexbox-beginners" 
-    },
-    { 
-      id: 5, 
-      title: "React State Management", 
-      content: "Managing state in React can be tricky...", 
-      datePosted: "2024-11-15", 
-      link: "/blog/react-state-management" 
-    },
-    { 
-      id: 6, 
-      title: "Introduction to Node.js", 
-      content: "Node.js is a runtime environment for JavaScript...", 
-      datePosted: "2024-10-05", 
-      link: "/blog/blog/introduction-to-nodejs" 
-    },
-    { 
-      id: 7, 
-      title: "Introduction to Node.js", 
-      content: "Node.js is a runtime environment for JavaScript...", 
-      datePosted: "2024-10-05", 
-      link: "/blog/introduction-to-nodejs" 
-    },
-    { 
-      id: 8, 
-      title: "Introduction to Node.js", 
-      content: "Node.js is a runtime environment for JavaScript...", 
-      datePosted: "2024-10-05", 
-      link: "/blog/introduction-to-nodejs" 
-    },
+    // { 
+    //   id: 1, 
+    //   title: "Learning React", 
+    //   content: "React is a powerful JavaScript library...", 
+    //   datePosted: "2025-02-08", 
+    //   link: "/blog/learning-react" 
+    // },
+    // { 
+    //   id: 2, 
+    //   title: "Understanding JavaScript Closures", 
+    //   content: "Closures are an important concept in JavaScript...", 
+    //   datePosted: "2025-01-15", 
+    //   link: "/blog/javascript-closures" 
+    // },
+    // { 
+    //   id: 3, 
+    //   title: "Web Development Trends in 2025", 
+    //   content: "In 2025, the web development industry will focus on...", 
+    //   datePosted: "2025-02-01", 
+    //   link: "/blog/web-development-trends-2025" 
+    // },
+    // { 
+    //   id: 4, 
+    //   title: "CSS Flexbox for Beginners", 
+    //   content: "Flexbox is a layout model in CSS...", 
+    //   datePosted: "2024-12-25", 
+    //   link: "/blog/css-flexbox-beginners" 
+    // },
+    // { 
+    //   id: 5, 
+    //   title: "React State Management", 
+    //   content: "Managing state in React can be tricky...", 
+    //   datePosted: "2024-11-15", 
+    //   link: "/blog/react-state-management" 
+    // },
+    // { 
+    //   id: 6, 
+    //   title: "Introduction to Node.js", 
+    //   content: "Node.js is a runtime environment for JavaScript...", 
+    //   datePosted: "2024-10-05", 
+    //   link: "/blog/blog/introduction-to-nodejs" 
+    // },
+    // { 
+    //   id: 7, 
+    //   title: "Introduction to Node.js", 
+    //   content: "Node.js is a runtime environment for JavaScript...", 
+    //   datePosted: "2024-10-05", 
+    //   link: "/blog/introduction-to-nodejs" 
+    // },
+    // { 
+    //   id: 8, 
+    //   title: "Introduction to Node.js", 
+    //   content: "Node.js is a runtime environment for JavaScript...", 
+    //   datePosted: "2024-10-05", 
+    //   link: "/blog/introduction-to-nodejs" 
+    // },
     // Add more posts as needed
   ];
   
@@ -164,6 +164,7 @@ const BlogPostsContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-top: 30px;
   box-sizing: border-box;
   overflow-y: auto; /* Enable scrolling when content overflows */
 `;
@@ -197,7 +198,7 @@ const PostTitle = styled.h2`
     text-decoration: none;
     color: #333;
     &:hover {
-      color: #007BFF;
+      color: #be185d;
     }
   }
 `;
@@ -230,7 +231,7 @@ const PaginationButton = styled.button`
     opacity: 0.5;
   }
   ${(props) => props.active && `
-    background-color: #007BFF;
+    background-color: #db2777;
     color: white;
   `}
 `;

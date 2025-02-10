@@ -7,11 +7,11 @@ import Draggable from "react-draggable";
 const MiniNav = () => {
     return (
         <Draggable>
-        <Container className="hidden md:block">
+        <ContainerRight className="hidden md:block">
         <Nav>
-          {/* <NavLink to="home" smooth={true} duration={500}>
+          <NavLink to="home" smooth={true} duration={500}>
             Home
-          </NavLink> */}
+          </NavLink>
           <NavLink to="about" smooth={true} duration={500}>
             About
           </NavLink>
@@ -22,12 +22,12 @@ const MiniNav = () => {
             Contact
           </NavLink>
         </Nav>
-      </Container>
+      </ContainerRight>
       </Draggable>
     )
 }
 // Styled Components for Mini Navbar
-const Container = styled.div`
+const ContainerLeft = styled.div`
   position: fixed;
   top: 10vh;
   left: 2vh;
@@ -36,6 +36,23 @@ const Container = styled.div`
   padding: 10px 20px;
   border-radius: 12px;
   z-index: 1000;
+`;
+
+const ContainerRight = styled.div`
+  position: fixed;
+  top: 12vh; /* Keep some spacing from the top */
+  right: 2vh; /* Move to the right instead of left */
+  transform: translate(0, 0); /* Remove centering effect */
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent */
+  padding: 10px 20px;
+  border-radius: 12px;
+  z-index: 1000;
+
+  display: none;  /* Hidden by default */
+
+  @media (min-width: 1240px) and (min-height: 680px) {  /* Both must be true */
+    display: block;
+  }
 `;
 
 const Nav = styled.nav`

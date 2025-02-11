@@ -7,7 +7,7 @@ import Draggable from "react-draggable";
 const MiniNav = () => {
     return (
         <Draggable>
-        <ContainerRight className="hidden md:block">
+        <ContainerRight className="hidden md:block z-10">
         <Nav>
           <NavLink to="home" smooth={true} duration={500}>
             Home

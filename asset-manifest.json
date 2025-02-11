@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaf257ad.css",
-    "main.js": "/static/js/main.583c1a2e.js",
+    "main.css": "/static/css/main.7d9b7bd3.css",
+    "main.js": "/static/js/main.9ef81cc8.js",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
     "static/media/blobimageofme.png": "/static/media/blobimageofme.e3baa0cd0fa587a912fd.png",
@@ -20,11 +20,11 @@
     "static/media/SB nice color.png": "/static/media/SB nice color.273048c551aa23a35ee1.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.aaf257ad.css.map": "/static/css/main.aaf257ad.css.map",
-    "main.583c1a2e.js.map": "/static/js/main.583c1a2e.js.map"
+    "main.7d9b7bd3.css.map": "/static/css/main.7d9b7bd3.css.map",
+    "main.9ef81cc8.js.map": "/static/js/main.9ef81cc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaf257ad.css",
-    "static/js/main.583c1a2e.js"
+    "static/css/main.7d9b7bd3.css",
+    "static/js/main.9ef81cc8.js"
   ]
 }

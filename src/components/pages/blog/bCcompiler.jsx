@@ -2,11 +2,11 @@ import React from 'react'
 import Uidaho from '../../../assets/2023-2024/universityofidaho.png'
 import GRC from '../../../assets/2023-2024/Green River College.jpg'
 
-const Education = () => {
+const bCcompiler = () => {
   return (
     <div name='education' className='w-full min-h-screen'>
 {/*Container */}
-        <div className='bg-universal dark:bg-universal-dark max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className=''>
                 <p className='text-3xl font-bold inline border-b-4 border-pink-600'>Education</p>
               <ul className='hidden md:block text-lg'>
@@ -66,4 +66,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default bCcompiler

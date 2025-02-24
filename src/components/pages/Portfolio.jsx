@@ -16,8 +16,8 @@ const Portfolio = () => {
       }, []); // Runs once when the component mounts
 
   return (
-    
     <div>
+    <div className="bg-universal dark:bg-universal-dark">
       <MiniNav />
       <Element name="home">
         <HomeSection />
@@ -38,6 +38,7 @@ const Portfolio = () => {
       <Helmet>
         <title>Portfolio - Samuel</title>
       </Helmet>
+    </div>
     </div>
   );
 };

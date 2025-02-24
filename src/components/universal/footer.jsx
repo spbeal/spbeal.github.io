@@ -8,7 +8,8 @@ import ResumeViewer from '../resume';
 
 const Footer = () => {
   return (
-        <div name="footer " className=" bg-almond-700 z-50" style={styles.footer}>
+        <div className=''>
+        <div name="footer " className="shadow-md shadow-[#040c16] bg-universal-100 dark:bg-universal-dark100 z-50" style={styles.footer}>
         {/* Container */}
         
             <div className="text-lg leading-8 ">
@@ -81,6 +82,7 @@ const Footer = () => {
                 </div>
             </div>
 
+        </div>
         </div>
   );
 };

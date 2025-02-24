@@ -21,7 +21,8 @@ import {
 
 const Home = () => {
   return (
-    <div name="home" className="w-full">
+    <div className="">
+    <div name="home" className="bg-universal dark:bg-universal-dark w-full min-h-screen">
       <Helmet>
         <title>Home - Samuel</title>
       </Helmet>
@@ -37,6 +38,7 @@ const Home = () => {
 
     <HomeMain></HomeMain>
     <HomeExt></HomeExt>
+    </div>
     </div>
   );
 };

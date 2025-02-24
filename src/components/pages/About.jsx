@@ -9,6 +9,7 @@ import Skills from "./combine/Skills";
 const About = () => {
   return (
     <div name="about" className="w-full min-h-screen ">
+      <div className="bg-universal dark:bg-universal-dark">
       <Helmet>
         <title>About - Samuel</title>
       </Helmet>
@@ -43,6 +44,7 @@ const About = () => {
       </div>
       <Education></Education>
       <Skills></Skills>
+      </div>
     </div>
   );
 };

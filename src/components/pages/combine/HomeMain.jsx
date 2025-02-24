@@ -23,7 +23,7 @@ const HomeMain = () => {
         <title>Home - Samuel</title>
       </Helmet>
       {/* Container */}
-      <div className="w-full mx-auto px-8 flex flex-col items-center justify-center  leading-8 pt-24 pb-96">
+      <div className="w-full mx-auto px-8 flex flex-col items-center justify-center bg-universal dark:bg-universal-dark leading-8 pt-24 pb-96">
         <div className="hidden sm:block pt-24">
           <div className=" grid grid-cols-2 ">
             <div>

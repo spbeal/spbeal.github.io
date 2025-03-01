@@ -44,7 +44,7 @@ const Navbar = () => {
     // };
 
   return (
-    <div className="shadow-sm shadow-[#040c16] bg-universal-100 dark:bg-universal-dark100 fixed w-full h-[80px] justify-between flex items-center px-4 z-50">
+    <div className="shadow-sm shadow-[#040c16] bg-gray-800 text-white dark:bg-universal-dark100 fixed w-full h-[80px] justify-between flex items-center px-4 z-50">
       {/* <div className="fixed px-4 bg-[#0a192f] text-gray-300"> */}
       
        <div className=''>

@@ -9,10 +9,10 @@ import ResumeViewer from '../resume';
 const Footer = () => {
   return (
         <div className=''>
-        <div name="footer " className="shadow-md shadow-[#040c16] bg-universal-100 dark:bg-universal-dark100 z-50" style={styles.footer}>
+        <div name="footer " className="shadow-md shadow-[#040c16] bg-gray-800 dark:bg-universal-dark100 z-50" style={styles.footer}>
         {/* Container */}
         
-            <div className="text-lg leading-8 ">
+            <div className="text-lg leading-8 text-white">
                 <div className="hidden sm:block">
                     <div className="justify-center">
                         {/* Social icons */}

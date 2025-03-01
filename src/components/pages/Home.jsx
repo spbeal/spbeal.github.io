@@ -22,7 +22,7 @@ import {
 const Home = () => {
   return (
     <div className="">
-    <div name="home" className="bg-universal dark:bg-universal-dark w-full min-h-screen">
+    <div name="home" className="">
       <Helmet>
         <title>Home - Samuel</title>
       </Helmet>

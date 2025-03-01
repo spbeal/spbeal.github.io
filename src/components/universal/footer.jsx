@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
             </div>            
             {/* Mobile */}
-            <div className="sm:hidden">
+            <div className="sm:hidden text-white">
                 <div>
                     {/* Social icons */}
                     <div className="py-4 flex justify-center space-x-4">

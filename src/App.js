@@ -5,6 +5,7 @@ import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
 import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
+import Experience from "./components/pages/combine/Experience";
 
 import Portfolio from "./components/pages/Portfolio";
 
@@ -28,12 +29,15 @@ function App() {
     //   <Footer/>
     // </div>
     <Router>
+    <div className="bg-gray-300 dark:bg-universal-dark">
+
       <ScrollToTop /> {/* Always scroll to top on route change */}
       <Navbar /> {/* Optional: Add navigation bar */}
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/experience" element={<Experience/>} />
         <Route path="/blog/:postId" element={<Post/>} /> {/* Dynamic route */}
         <Route path="/projects" element={<Projects/>} />
         <Route path="/contact" element={<Contact />} />
@@ -41,7 +45,10 @@ function App() {
         <Route path="*" element={<NotFound />} />  {/* Catch-all for 404 */}
       </Routes>
       <Footer/>
+      </div>
+
     </Router>
+
   );
 };
 

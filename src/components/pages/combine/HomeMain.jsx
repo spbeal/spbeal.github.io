@@ -1,96 +1,47 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
-import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import SamBlob from "../../../assets/2023-2024/blobimageofme.png";
-
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
-
-{
-  /* #42BD97  #0a192f*/
-}
 
 const HomeMain = () => {
   return (
-    <div name="home_main" className="w-full ">
+    <div name="home_main" className="w-full min-h-screen flex flex-col items-center justify-center">
       <Helmet>
         <title>Home - Samuel</title>
       </Helmet>
-      {/* Container */}
-      <div className="w-full mx-auto px-8 flex flex-col items-center justify-center bg-universal dark:bg-universal-dark leading-8 pt-24 pb-96">
-        <div className="hidden sm:block pt-24">
-          <div className=" grid grid-cols-2 ">
-            <div>
-              <h1 className=" text-4xl font-bold sm:block underline decoration-pink-600 underline-offset-4 ">
-                Samuel Beal
-              </h1>
-              <p className="text-left text-xl leading-8 py-2 max-w-[400px] ">
-                I am a Computer Science Student at University of Idaho.
-                Experienced in developing full-stack projects using technologies like
-                 C++, C#, Python, React, and MySQL.
-                When I'm not studying, I am out with friends, swing dancing, playing rugby, water polo, 
-                or programming a new project
-              </p>
-
-              {/* Social icons */}
-              <div className="py-4 grid grid-cols-6 space-x-0">
-                <div className="pl-4">
-                  <a
-                    className=""
-                    href="https://www.linkedin.com/in/samuelbeal/"
-                  >
-                    <FaLinkedin size={30} />
-                  </a>
-                </div>
-                <div className="">
-                  <a className="" href="https://github.com/spbeal">
-                    <FaGithub size={30} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <img className=" pl-6 h-72" src={SamBlob} alt="Me"></img>
+      
+      <div className="container mx-auto px-6 lg:px-16 py-20 flex flex-col-reverse lg:flex-row items-center gap-12 justify-center">
+        {/* Text Section */}
+        <div className="text-center lg:text-left max-w-2xl">
+          {/* <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
+            Samuel Beal
+          </h1> */}
+          <div className="">
+          <p className="text-5xl font-extrabold inline leading-tight border-pink-600">
+           Samuel Beal
+          </p>
+        </div>
+          <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+            I am a Computer Science Student at the University of Idaho. 
+            Experienced in developing full-stack projects using technologies like C++, C#, Python, React, and MySQL.
+            When I'm not studying, I am out with friends, swing dancing, playing rugby, water polo, 
+            or programming a new project.
+          </p>
+          
+          {/* Social icons */}
+          <div className="mt-6 flex justify-center lg:justify-start space-x-6">
+            <a href="https://www.linkedin.com/in/samuelbeal/" className="text-blue-600 hover:text-blue-800">
+              <FaLinkedin size={35} />
+            </a>
+            <a href="https://github.com/spbeal" className="text-gray-900 hover:text-gray-700">
+              <FaGithub size={35} />
+            </a>
           </div>
         </div>
-
-        {/* Mobile */}
-        <div className="sm:hidden pt-24">
-          <div>
-            <div className="">
-              <img className="h-72 mx-auto " src={SamBlob} alt="Me"></img>
-            </div>
-
-            <h1 className=" text-4xl font-bold underline decoration-pink-600 underline-offset-4 ">
-              Samuel Beal
-            </h1>
-            <p className=" text-xl leading-8 py-2 max-w-[700px]">
-              I am a Computer Science Student at University of Idaho.
-              Experienced in C++, basic python, and basic web development. When
-              I'm not studying, I am out with friends, playing rugby, or
-              programming a new project
-            </p>
-
-            {/* Social icons */}
-            <div className="py-4 grid grid-cols-12 space-x-0">
-              <div className="pl-4">
-                <a className="" href="https://www.linkedin.com/in/samuelbeal/">
-                  <FaLinkedin size={30} />
-                </a>
-              </div>
-              <div className="sm:hidden space-x-0"></div>
-              <div className="">
-                <a className="" href="https://github.com/spbeal">
-                  <FaGithub size={30} />
-                </a>
-              </div>
-            </div>
-          </div>
+        
+        {/* Image Section */}
+        <div className="w-72 h-72 lg:w-80 lg:h-80 flex-shrink-0">
+          <img className="w-full h-full object-cover rounded-full shadow-lg" src={SamBlob} alt="Samuel Beal" />
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <div>
-    <div className="bg-universal dark:bg-universal-dark">
+    <div className="">
       <MiniNav />
       <Element name="home">
         <HomeSection />

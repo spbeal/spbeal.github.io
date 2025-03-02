@@ -17,8 +17,8 @@ const Projects = () => {
 
       <div className="max-w-[1200px] mx-auto px-8 items-center justify-center leading-8 pt-32 pb-32">
         <div className="pb-8 text-center p-6">
-          <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
-            My Projects
+        <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
+               drop-shadow-lg">            My Projects
           </p>
         </div>
         {/* Projects Grid */}

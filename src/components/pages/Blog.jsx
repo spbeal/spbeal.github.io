@@ -42,8 +42,8 @@ const Blog = () => {
       <div className="flex flex-col items-center w-full">
         <div className="max-w-4xl w-full p-6">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
-            My Blog
+        <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
+               drop-shadow-lg">            My Blog
           </p>
         </div>
           <div className="mb-8">

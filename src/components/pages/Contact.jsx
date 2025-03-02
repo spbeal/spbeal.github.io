@@ -3,14 +3,14 @@ import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen  pt-24 flex justify-center items-center">
+    <div className="min-h-screen py-32 flex justify-center items-center">
       <Helmet>
         <title>Contact - Samuel</title>
       </Helmet>
-      <div className="w-full max-w-2xl p-6 bg-gray-200 shadow-lg rounded-lg">
-      <div className="pb-8 text-center p-6">
-          <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
-            Contact Me
+      <div className="w-full max-w-sm sm:max-w-xl lg:max-w-4xl p-6 bg-gray-200 shadow-lg rounded-lg">
+      <div className="pb-8 text-center pt-6">
+      <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
+               drop-shadow-lg">            Contact Me
           </p>
         </div>
         <p className="text-lg text-gray-600 text-center mb-8">

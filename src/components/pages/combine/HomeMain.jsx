@@ -1,7 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import SamBlob from "../../../assets/2023-2024/blobimageofme.png";
+//import SamBlob from "../../../assets/2023-2024/blobimageofme.png";
+//import SamBlob from "../../../assets/Snapchat-sam1.jpg";
+import SamBlob from "../../../assets/Snapchat-sam2.jpg";
 
 const HomeMain = () => {
   return (
@@ -10,7 +12,7 @@ const HomeMain = () => {
         <title>Home - Samuel</title>
       </Helmet>
       
-      <div className="container mx-auto px-6 lg:px-16 py-20 flex flex-col-reverse lg:flex-row items-center gap-12 justify-center">
+      <div className="container mx-auto px-6 lg:px-16 py-32 flex flex-col-reverse lg:flex-row items-center gap-12 justify-center">
         {/* Text Section */}
         <div className="text-center lg:text-left max-w-2xl">
           {/* <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">

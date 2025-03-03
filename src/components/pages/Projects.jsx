@@ -6,6 +6,14 @@ import DiscoverWeekly from '../../assets/2023-2024/discoverweekly.png';
 import StockPic from '../../assets/2023-2024/stockmarket.jpg';
 import PlatformerPic from '../../assets/2023-2024/2D_Platformer_QjdAii7a0L.png';
 import crafty3DPic from '../../assets/2023-2024/crafty3D.jpg';
+import sketchkeypic from '../../assets/projects/gallery.jpg';
+import bccompilerpic from '../../assets/projects/bccompilerpic.png';
+import barterbuddypic from '../../assets/projects/barterbuy-dark.png';
+import cssurvivorpic from '../../assets/projects/cssurvivor.png';
+import surgevpic from '../../assets/projects/surgev.png';
+import linuxshellpic from '../../assets/projects/linuxshell.png'
+
+
 import styled from "styled-components";
 
 const Projects = () => {
@@ -17,12 +25,48 @@ const Projects = () => {
 
       <div className="max-w-[1200px] mx-auto px-8 items-center justify-center leading-8 pt-32 pb-32">
         <div className="pb-8 text-center p-6">
-        <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
-               drop-shadow-lg">            My Projects
+        <p className="text-3xl sm:text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
+               drop-shadow-lg">            Personal Projects
           </p>
         </div>
         {/* Projects Grid */}
         <div className="min-w-[300px] grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
+                      {/* Project Card */}
+                      <StyledContainer>
+            <StyledBackground image={surgevpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                SurgeV
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://surgev.store/">
+                  <StyledButton>Website</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+               {/* Project Card */}
+               <StyledContainer>
+            <StyledBackground image={sketchkeypic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                Sketchkey
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://devpost.com/software/sketchkey">
+                  <StyledButton>Hackathon</StyledButton>
+                </a>
+                <a href="https://github.com/andreas-04/sketchkey">
+                  <StyledButton>Code</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+       
         {/* Project Card */}
           <StyledContainer>
             <StyledBackground image={crafty3DPic} />
@@ -106,22 +150,90 @@ const Projects = () => {
 
         {/* Archive Section */}
         <div className="pb-8 pt-16 text-center">
-          <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
-            Archive
+          <p className="text-2xl sm:text-4xl font-extrabold inline border-b-4 border-pink-600">
+            School Projects
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
+
+      {/* Project Card */}
+      <StyledContainer>
+            <StyledBackground image={bccompilerpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                bC-compiler
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://github.com/spbeal/bC-compiler">
+                  <StyledButton>Code</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+
+        {/* Project Card */}
+        <StyledContainer>
+            <StyledBackground image={barterbuddypic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                BarterBuddy
+              </h2>
+              <p className="text-xl text-white">Fall 2024</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+              <a href="https://github.com/ashep04/CS360_Barter_App/blob/main/Project_Report_Fall_2024_CS360_Group_13.pdf">
+                  <StyledButton>Visuals</StyledButton>
+                </a>
+                <a href="https://github.com/ashep04/CS360_Barter_App">
+                  <StyledButton>Code</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+        {/* Project Card */}
+        <StyledContainer>
+            <StyledBackground image={cssurvivorpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                CS-Survivor
+              </h2>
+              <p className="text-xl text-white">Fall 2024</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://github.com/spbeal/CS-Survivor">
+                  <StyledButton>Code</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+
           {/* Archive Project Card */}
           <StyledContainer>
             <StyledBackground image={CS360PNG} />
             <StyledOverlay />
             <StyledContent>
               <h2 className="min-w-[300px] text-2xl font-bold text-white tracking-wider">
-                CS360
+                CS360 Labs
               </h2>
               <p className="text-xl text-white">Fall 2024</p>
               <a href="/CS360/index.html">
                 <StyledButton>Link</StyledButton>
+              </a>
+            </StyledContent>
+          </StyledContainer>
+
+          <StyledContainer>
+            <StyledBackground image={linuxshellpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="min-w-[300px] text-2xl font-bold text-white tracking-wider">
+                linux-shell-cs240
+              </h2>
+              <p className="text-xl text-white">Spring 2024</p>
+              <a href="https://github.com/spbeal/linux-shell-cs240">
+                <StyledButton>Code</StyledButton>
               </a>
             </StyledContent>
           </StyledContainer>

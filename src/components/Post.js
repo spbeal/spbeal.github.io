@@ -30,12 +30,12 @@ const Post = () => {
     content: (
       <div className="prose max-w-none">
         {/* <h2>Transform Your Online Presence</h2> */}
-        <p>I have been having a ton of fon building <a href="https://surgev.store" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:underline">SurgeV</a></p>
+        <p>I have been having a ton of fun building an ecommerce website for <a href="https://surgev.store" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:underline">SurgeV</a></p>
         <ul className="list-disc pl-6">
+          <li>Hand making creatine gummies with my roommate </li>
           <li>Next.js</li>
           <li>Stripe payment intent</li>
           <li>Vercel deployment</li>
-          <li>Hand making creatine gummies with my roommate </li>
         </ul>
         
         {/* <h3>Why Choose SurgeV?</h3>

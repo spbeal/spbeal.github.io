@@ -12,6 +12,7 @@ import barterbuddypic from '../../assets/projects/barterbuy-dark.png';
 import cssurvivorpic from '../../assets/projects/cssurvivor.png';
 import surgevpic from '../../assets/projects/surgev.png';
 import linuxshellpic from '../../assets/projects/linuxshell.png'
+import cs395pic from '../../assets/projects/cs395.png'
 
 
 import styled from "styled-components";
@@ -25,7 +26,7 @@ const Projects = () => {
 
       <div className="max-w-[1200px] mx-auto px-8 items-center justify-center leading-8 pt-32 pb-32">
         <div className="pb-8 text-center p-6">
-        <p className="text-3xl sm:text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
+        <p className="text-4xl sm:text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
                drop-shadow-lg">            Personal Projects
           </p>
         </div>
@@ -150,7 +151,7 @@ const Projects = () => {
 
         {/* Archive Section */}
         <div className="pb-8 pt-16 text-center">
-          <p className="text-2xl sm:text-4xl font-extrabold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
             School Projects
           </p>
         </div>
@@ -167,6 +168,23 @@ const Projects = () => {
               <p className="text-xl text-white">2025</p>
               <div className="min-w-[300px] mt-4 space-x-4">
                 <a href="https://github.com/spbeal/bC-compiler">
+                  <StyledButton>Code</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+
+      {/* Project Card */}
+      <StyledContainer>
+            <StyledBackground image={cs395pic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                CS395 Algorithms
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://github.com/spbeal/cs395">
                   <StyledButton>Code</StyledButton>
                 </a>
               </div>

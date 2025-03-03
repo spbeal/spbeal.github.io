@@ -5,16 +5,27 @@ import Footer from "./components/universal/footer";
 import ScrollToTop from "./components/PageLoad";
 import "./index.css";  // Assuming you have global styles here
 
+// Non lazy-loaded components
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
+import Blog from "./components/pages/Blog";
+import Contact from "./components/pages/Contact";
+// import Experience from "./components/pages/combine/Experience";
+import Portfolio from "./components/pages/Portfolio";
+import Post from "./components/Post";
+import NotFound from "./components/NotFound";
+
 // Lazy-loaded components
-const Home = lazy(() => import("./components/pages/Home"));
-const About = lazy(() => import("./components/pages/About"));
-const Projects = lazy(() => import("./components/pages/Projects"));
-const Blog = lazy(() => import("./components/pages/Blog"));
-const Contact = lazy(() => import("./components/pages/Contact"));
+// const Home = lazy(() => import("./components/pages/Home"));
+// const About = lazy(() => import("./components/pages/About"));
+// const Projects = lazy(() => import("./components/pages/Projects"));
+// const Blog = lazy(() => import("./components/pages/Blog"));
+// const Contact = lazy(() => import("./components/pages/Contact"));
 const Experience = lazy(() => import("./components/pages/combine/Experience"));
-const Portfolio = lazy(() => import("./components/pages/Portfolio"));
-const Post = lazy(() => import("./components/Post"));
-const NotFound = lazy(() => import("./components/NotFound"));
+// const Portfolio = lazy(() => import("./components/pages/Portfolio"));
+// const Post = lazy(() => import("./components/Post"));
+// const NotFound = lazy(() => import("./components/NotFound"));
 
 // If using custom fonts, load them through CSS instead
 // Add font classes to your CSS file or use a font loading solution

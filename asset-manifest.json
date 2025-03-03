@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4ea82ca3.css",
-    "main.js": "/static/js/main.961cea73.js",
+    "main.js": "/static/js/main.a3949c25.js",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
     "static/media/blobimageofme.png": "/static/media/blobimageofme.e3baa0cd0fa587a912fd.png",
@@ -24,10 +24,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.4ea82ca3.css.map": "/static/css/main.4ea82ca3.css.map",
-    "main.961cea73.js.map": "/static/js/main.961cea73.js.map"
+    "main.a3949c25.js.map": "/static/js/main.a3949c25.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea82ca3.css",
-    "static/js/main.961cea73.js"
+    "static/js/main.a3949c25.js"
   ]
 }

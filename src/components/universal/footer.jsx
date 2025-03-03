@@ -1,10 +1,10 @@
 
 import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa"
-import Contact from "../pages/Contact";
+// import Contact from "../pages/Contact";
 import { Link } from "react-router-dom";
 import Resume from "../../assets/resume.pdf";
-import ResumeViewer from '../resume';
+// import ResumeViewer from '../resume';
 
 const Footer = () => {
   return (

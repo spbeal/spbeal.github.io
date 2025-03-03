@@ -1,23 +1,23 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import { Link } from "react-router-dom";
-import SamBlob from "../../assets/2023-2024/blobimageofme.png";
+// import { Link } from "react-router-dom";
+// import SamBlob from "../../assets/2023-2024/blobimageofme.png";
 
 import HomeMain from "./combine/HomeMain";
 import HomeExt from "./combine/HomeExt";
 
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+// import {
+//   FaBars,
+//   FaTimes,
+//   FaGithub,
+//   FaLinkedin,
+//   FaFacebook,
+// } from "react-icons/fa";
 
-{
-  /* #42BD97  #0a192f*/
-}
+// {
+//   /* #42BD97  #0a192f*/
+// }
 
 const Home = () => {
   return (

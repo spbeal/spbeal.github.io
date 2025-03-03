@@ -12,9 +12,9 @@ import Portfolio from "./components/pages/Portfolio";
 import NotFound from "./components/NotFound";
 import Post from "./components/Post";
 import ScrollToTop from "./components/PageLoad";
-import {Routes, Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import {Routes, Route, BrowserRouter as Router} from 'react-router-dom'
 
-import {createBrowserRouter } from 'react-router-dom'
+//import {createBrowserRouter } from 'react-router-dom'
 
 
 

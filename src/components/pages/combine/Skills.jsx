@@ -5,7 +5,7 @@ import JavaScript from '../../../assets/2023-2024/javascript.png';
 import ReactImg from '../../../assets/2023-2024/react.png';
 import csharp from '../../../assets/2023-2024/icons8-c-sharp.png';
 import flask from '../../../assets/2023-2024/icons8-flask-50.png';
-import tailwind from '../../../assets/icons/tailwind.png';
+// import tailwind from '../../../assets/icons/tailwind.png';
 import c_icon from '../../../assets/icons/pngkit_download-png_1010012.png';
 import typescript from '../../../assets/icons/png-transparent-typescript-plain-logo-icon-3069667125.png';
 import Cplusplus from '../../../assets/2023-2024/c++.png';

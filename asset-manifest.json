@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0fe9ec40.css",
-    "main.js": "/static/js/main.293342e4.js",
+    "main.js": "/static/js/main.d8b1acf0.js",
     "static/js/299.ad89255b.chunk.js": "/static/js/299.ad89255b.chunk.js",
     "static/media/cssurvivor.png": "/static/media/cssurvivor.fb0674cc67c21626e44f.png",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
@@ -23,6 +23,7 @@
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/pngkit_download-png_1010012.png": "/static/media/pngkit_download-png_1010012.30e8acff157f8fa06702.png",
     "static/media/2D_Platformer_QjdAii7a0L.png": "/static/media/2D_Platformer_QjdAii7a0L.346a0154c9eeb52bb097.png",
+    "static/media/Nature-Photo.jpg": "/static/media/Nature-Photo.d2049b2545afd37fadf0.jpg",
     "static/media/discoverweekly.png": "/static/media/discoverweekly.73968c8c400cdf239b78.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/c++.png": "/static/media/c++.9d2158e2c62e36bef045.png",
@@ -32,11 +33,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.0fe9ec40.css.map": "/static/css/main.0fe9ec40.css.map",
-    "main.293342e4.js.map": "/static/js/main.293342e4.js.map",
+    "main.d8b1acf0.js.map": "/static/js/main.d8b1acf0.js.map",
     "299.ad89255b.chunk.js.map": "/static/js/299.ad89255b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fe9ec40.css",
-    "static/js/main.293342e4.js"
+    "static/js/main.d8b1acf0.js"
   ]
 }

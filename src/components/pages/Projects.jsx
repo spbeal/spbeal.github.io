@@ -13,6 +13,7 @@ import cssurvivorpic from '../../assets/projects/cssurvivor.png';
 import surgevpic from '../../assets/projects/surgev.png';
 import linuxshellpic from '../../assets/projects/linuxshell.png'
 import cs395pic from '../../assets/projects/cs395.png'
+import focpic from '../../assets/projects/Nature-Photo.jpg'
 
 
 import styled from "styled-components";
@@ -72,8 +73,9 @@ const Projects = () => {
           <StyledContainer>
             <StyledBackground image={crafty3DPic} />
             <StyledOverlay />
+            
             <StyledContent>
-              <h2 className="text-2xl font-bold text-white tracking-wider">
+            <h2 className="text-2xl font-bold text-white tracking-wider">
                 Crafty3D
               </h2>
               <p className="text-xl text-white">2024</p>
@@ -152,10 +154,30 @@ const Projects = () => {
         {/* Archive Section */}
         <div className="pb-8 pt-16 text-center">
           <p className="text-4xl font-extrabold inline border-b-4 border-pink-600">
-            School Projects
+            Other Projects
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
+
+          {/* Project Card */}
+          <StyledContainer>
+            <StyledBackground image={focpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-xl font-bold text-white tracking-wider">
+                Friends Of The Clearwater 
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://www.friendsoftheclearwater.org/">
+                  <StyledButton>Website</StyledButton>
+                </a>
+                <a href="https://github.com/spbeal/StripeFOC">
+                  <StyledButton>Stripe Plugin</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
 
       {/* Project Card */}
       <StyledContainer>

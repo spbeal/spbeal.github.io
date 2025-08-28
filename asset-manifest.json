@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fe9ec40.css",
-    "main.js": "/static/js/main.67c8f724.js",
+    "main.css": "/static/css/main.7814484c.css",
+    "main.js": "/static/js/main.c8ddc0c5.js",
     "static/js/299.ad89255b.chunk.js": "/static/js/299.ad89255b.chunk.js",
     "static/media/cssurvivor.png": "/static/media/cssurvivor.fb0674cc67c21626e44f.png",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
-    "static/media/blobimageofme.png": "/static/media/blobimageofme.e3baa0cd0fa587a912fd.png",
     "static/media/Snapchat-sam2.jpg": "/static/media/Snapchat-sam2.f7d91aaefc1c99598d80.jpg",
     "static/media/lab2.png": "/static/media/lab2.54933d8c5a6369094635.png",
     "static/media/resume.pdf": "/static/media/resume.0fa24ba75563f25649d3.pdf",
@@ -29,15 +28,17 @@
     "static/media/c++.png": "/static/media/c++.9d2158e2c62e36bef045.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/SB nice color.png": "/static/media/SB nice color.273048c551aa23a35ee1.png",
+    "static/media/go-2064624000.png": "/static/media/go-2064624000.02bc982b6d5375664482.png",
     "static/media/cs395.png": "/static/media/cs395.d4aeef72414ed9195684.png",
+    "static/media/purescript.png": "/static/media/purescript.bd20b2daeb820f11709e.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.0fe9ec40.css.map": "/static/css/main.0fe9ec40.css.map",
-    "main.67c8f724.js.map": "/static/js/main.67c8f724.js.map",
+    "main.7814484c.css.map": "/static/css/main.7814484c.css.map",
+    "main.c8ddc0c5.js.map": "/static/js/main.c8ddc0c5.js.map",
     "299.ad89255b.chunk.js.map": "/static/js/299.ad89255b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fe9ec40.css",
-    "static/js/main.67c8f724.js"
+    "static/css/main.7814484c.css",
+    "static/js/main.c8ddc0c5.js"
   ]
 }

@@ -32,7 +32,7 @@ const About = () => {
               <p className="mt-4 text-lg text-gray-700 leading-relaxed text-center lg:text-left">
               I am an Associate Software Engineer @ SEL. I have a passion for
             building impactful applications and continuously expanding my skill set.
-             Recently, I've been diving into trading and working on automated trading bots in using AWS, Python, and ML. 
+             Recently, I've been into investing and developing automated trading bots using AWS, Python, and ML. 
               </p>
               
               {/* Social Icons */}

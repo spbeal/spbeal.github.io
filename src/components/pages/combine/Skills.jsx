@@ -10,18 +10,33 @@ import c_icon from '../../../assets/icons/pngkit_download-png_1010012.png';
 import typescript from '../../../assets/icons/png-transparent-typescript-plain-logo-icon-3069667125.png';
 import Cplusplus from '../../../assets/2023-2024/c++.png';
 import PythonImg from '../../../assets/2023-2024/python.png';
+import PureScriptImg from '../../../assets/purescript.png';
+import GolangImg from '../../../assets/go-2064624000.png';
 
 const skills = [
+  { name: 'React', image: ReactImg },
+  { name: 'TypeScript', image: typescript },
+  { name: 'JavaScript', image: JavaScript },
+  { name: 'Golang', image: GolangImg },
+  { name: 'PureScript', image: PureScriptImg },
+  { name: 'Python', image: PythonImg },
   { name: 'C', image: c_icon },
   { name: 'C++', image: Cplusplus },
-  { name: 'Python', image: PythonImg },
   { name: 'C#', image: csharp },
   { name: 'HTML', image: HTML },
   { name: 'CSS', image: CSS },
-  { name: 'JavaScript', image: JavaScript },
-  { name: 'TypeScript', image: typescript },
-  { name: 'React', image: ReactImg },
-  { name: 'Flask', image: flask }
+  { name: 'Flask', image: flask },
+];
+
+const miniSkills = [
+  "Agile",
+  "Scrum",
+  "Kubernetes",
+  "Docker",
+  "Git",
+  "Unit Tests",
+  "CI/CD",
+  "REST APIs",
 ];
 
 const Skills = () => {
@@ -31,9 +46,25 @@ const Skills = () => {
         <h2 className='text-4xl font-extrabold text-gray-900 border-b-4 border-pink-600 inline-block'>
           Skills
         </h2>
-        <p className='mt-4 text-lg text-gray-700'>These are some of the technologies I've worked with:</p>
+        {/* <p className='mt-4 text-lg text-gray-700'>These are some of the technologies I've worked with:</p> */}
 
-        <div className='mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8'>
+        {/* Mini Skills Section */}
+        <div className="mt-6">
+          {/* <h3 className="text-2xl font-bold text-gray-800 mb-4">Misc Skills</h3> */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {miniSkills.map((mini, idx) => (
+              <span
+                key={idx}
+                className="bg-pink-100 text-pink-700 px-4 py-1 rounded-full text-sm font-semibold shadow"
+              >
+                {mini}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Skills Grid */}
+        <div className='mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8'>
           {skills.map((skill, index) => (
             <div key={index} className='flex flex-col items-center p-4 bg-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105'>
               <img className='w-16 h-16' src={skill.image} alt={`${skill.name} icon`} />
@@ -41,6 +72,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
+
       </div>
     </div>
   );

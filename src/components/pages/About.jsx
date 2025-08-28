@@ -30,9 +30,9 @@ const About = () => {
             {/* Text Section */}
             <div className="flex-1">
               <p className="mt-4 text-lg text-gray-700 leading-relaxed text-center lg:text-left">
-              I am a senior studying Computer Science at the University of Idaho. I have a passion for
-            building impactful applications and continuously expanding my skill set. Recently, I’ve
-            been working on projects in C and Python.
+              I am an Associate Software Engineer @ SEL. I have a passion for
+            building impactful applications and continuously expanding my skill set.
+             Recently, I've been diving into trading and working on automated trading bots in using AWS, Python, and ML. 
               </p>
               
               {/* Social Icons */}

@@ -24,7 +24,7 @@ const HomeMain = () => {
           </p>
         </div>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-            I am an Associate Software Engineer @ SEL whom graduated from University of Idaho in Computer Science with a certificate in AI/ML. 
+            I am an Associate Software Engineer @ SEL who graduated from University of Idaho in Computer Science with a certificate in AI/ML. 
             Experienced in developing full-stack projects using React, TS/JS, Golang, PureScript, Python, C++, C#, and MySQL.
             When I'm not studying, I am out with friends, swing dancing, playing rugby, water polo, 
             or programming a new project.

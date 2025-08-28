@@ -29,14 +29,20 @@ const skills = [
 ];
 
 const miniSkills = [
+  "Git",
+  "Kubernetes",
+  "PostgreSQL",
+  "Node.js",
+  "MUI",
+  "Docker",
+  "CI/CD",
+  "Embedded Software",
+  "REST APIs",
+  "OpenAPI",
+  "Embedded Systems",
+  "Networking",
   "Agile",
   "Scrum",
-  "Kubernetes",
-  "Docker",
-  "Git",
-  "Unit Tests",
-  "CI/CD",
-  "REST APIs",
 ];
 
 const Skills = () => {

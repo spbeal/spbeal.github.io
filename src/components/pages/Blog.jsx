@@ -11,7 +11,13 @@ const Blog = () => {
       datePosted: "2025-02-28",
       link: "surgev",
     },
-    // Add more posts as needed
+    {
+      id: 2,
+      title: "Trading Bots",
+      content: "Building automated trading bots using AWS, Python, and ML.",
+      datePosted: "2025-08-28",
+      link: "trading-bots",
+    },
   ];
   const sortedPosts = [...posts].sort((a, b) => new Date(b.datePosted) - new Date(a.datePosted));
   const [searchQuery, setSearchQuery] = useState("");

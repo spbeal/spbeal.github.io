@@ -71,6 +71,11 @@ const Navbar = () => {
                 About
                 </Link>
               </li>
+              <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
+                <Link to="/experience" smooth={true} duration={500} >
+                Experience
+                </Link>
+              </li> 
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
                 <Link to="/blog" smooth={true} duration={500} >

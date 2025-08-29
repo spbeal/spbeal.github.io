@@ -20,7 +20,6 @@ const bCcompiler = () => {
                 <p className='mx-auto py-1'>GPA: 3.79/4.0</p>
                 </p>
                 </li>
-
                 <li className='py-8 grid grid-cols-4'>
                 <img className='w-20' src={GRC} alt="Green River College icon"/>
                   <li>

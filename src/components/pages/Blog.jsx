@@ -15,7 +15,7 @@ const Blog = () => {
       id: 2,
       title: "Trading Bots",
       content: "Building automated trading bots using AWS, Python, and ML.",
-      datePosted: "2025-08-28",
+      datePosted: "2025-08-29",
       link: "trading-bots",
     },
   ];

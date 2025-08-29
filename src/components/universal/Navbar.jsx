@@ -126,6 +126,12 @@ const Navbar = () => {
             </li>
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
+            <Link onClick={handleClick} to="/experience" smooth={true} duration={500} >
+                Experience
+              </Link>
+            </li> 
+
+            <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
             <Link onClick={handleClick} to="/projects" smooth={true} duration={500} >
                 Projects
               </Link>

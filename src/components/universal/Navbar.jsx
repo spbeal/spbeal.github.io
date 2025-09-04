@@ -49,7 +49,7 @@ const Navbar = () => {
       
        <div className=''>
         <nav>
-            <Link to="/" smooth={true} duration={500} >
+            <Link to="/" smooth="true" duration={500} >
               <img src={Logo} alt="Logo" style={{ width: "60px" }} />                
           </Link>
         </nav>
@@ -61,36 +61,36 @@ const Navbar = () => {
           <nav>
            <ul className='hidden md:flex text-lg mx-2 gap-x-5 cursor-pointer  '>
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/" smooth={true} duration={500} >
+                <Link to="/" smooth="true" duration={500} >
                 Home
                 </Link>
               </li>
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/about" smooth={true} duration={500} >
+                <Link to="/about" smooth="true" duration={500} >
                 About
                 </Link>
               </li>
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/experience" smooth={true} duration={500} >
+                <Link to="/experience" smooth="true" duration={500} >
                 Experience
                 </Link>
               </li> 
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/blog" smooth={true} duration={500} >
+                <Link to="/blog" smooth="true" duration={500} >
                 Blog
                 </Link>
               </li> {/* Could combine About with Contact */}
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/projects" smooth={true} duration={500} >
+                <Link to="/projects" smooth="true" duration={500} >
                 Projects
                 </Link>
               </li> 
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/portfolio" smooth={true} duration={500} >
+                <Link to="/portfolio" smooth="true" duration={500} >
                 Portfolio
                 </Link>
               </li> 
@@ -114,44 +114,40 @@ const Navbar = () => {
           }
         >
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/" smooth={true} duration={500} >
+            <Link onClick={handleClick} to="/" smooth="true" duration={500} >
                 Home
               </Link>
             </li>
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/about" smooth={true} duration={500} >
+            <Link onClick={handleClick} to="/about" smooth="true" duration={500} >
                 About
               </Link>
             </li>
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/experience" smooth={true} duration={500} >
+            <Link onClick={handleClick} to="/experience" smooth="true" duration={500} >
                 Experience
               </Link>
             </li> 
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/projects" smooth={true} duration={500} >
+            <Link onClick={handleClick} to="/projects" smooth="true" duration={500} >
                 Projects
               </Link>
               </li> 
 
               <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-              <Link onClick={handleClick} to="/blog" smooth={true} duration={500} >
+              <Link onClick={handleClick} to="/blog" smooth="true" duration={500} >
                 Blog
               </Link>
               </li> 
 
               <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-              <Link onClick={handleClick} to="/portfolio" smooth={true} duration={500} >
+              <Link onClick={handleClick} to="/portfolio" smooth="true" duration={500} >
                 Portfolio
               </Link>
               </li> 
-
-              {/* <li className='py-6 text-4xl'>
-                <a href='https://sambeal.dev/portfolio/' className="hover:text-blue-500"> Portfolio</a>
-                </li> */}
          </ul>
          </div>
 

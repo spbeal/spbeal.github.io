@@ -15,17 +15,10 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Post from "./components/Post";
 import NotFound from "./components/NotFound";
-
+import Experience from "./components/pages/Experience";
 // Lazy-loaded components
-// const Home = lazy(() => import("./components/pages/Home"));
-// const About = lazy(() => import("./components/pages/About"));
-// const Projects = lazy(() => import("./components/pages/Projects"));
-// const Blog = lazy(() => import("./components/pages/Blog"));
-// const Contact = lazy(() => import("./components/pages/Contact"));
-const Experience = lazy(() => import("./components/pages/combine/Experience"));
-// const Portfolio = lazy(() => import("./components/pages/Portfolio"));
-// const Post = lazy(() => import("./components/Post"));
-// const NotFound = lazy(() => import("./components/NotFound"));
+// const Experience = lazy(() => import("./components/pages/Experience"));
+
 
 // If using custom fonts, load them through CSS instead
 // Add font classes to your CSS file or use a font loading solution

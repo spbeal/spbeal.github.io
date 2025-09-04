@@ -25,22 +25,11 @@ const Footer = () => {
                             </a>
                             <nav>
                                 <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
-                                    {/* <li>
-                                    <Link to="/portfolio" smooth={true} duration={500} >
-                                    Portfolio
-                                    </Link>
-                                    </li>  */}
-                    
                                     <li>
-                                    <Link to="/contact" smooth={true} duration={500} >
+                                    <Link to="/contact" smooth="true" duration={500} >
                                     Contact Me
                                     </Link>
                                     </li> 
-                                    {/* <li>
-                                    <Link to="/resources/resume.pdf" smooth={true} duration={500} >
-                                    Resume
-                                    </Link>
-                                    </li>  */}
                                     <li>
                                     <a href={Resume} download="My_Resume.pdf">
                                         Resume
@@ -70,7 +59,7 @@ const Footer = () => {
                             <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
                 
                                 <li>
-                                <Link to="/contact" smooth={true} duration={500} >
+                                <Link to="/contact" smooth="true" duration={500} >
                                 Contact
                                 </Link>
                                 </li> 

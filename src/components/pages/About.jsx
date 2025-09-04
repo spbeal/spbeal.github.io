@@ -2,8 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import SamBlob from "../../assets/Snapchat-sam1.jpg";
-// import SamBlob from "../../assets/Snapchat-sam2.jpg";
-// import SamBlob from "../../assets/2023-2024/blobimageofme.png";
 
 import Education from "./combine/Education";
 import Skills from "./combine/Skills";

@@ -9,16 +9,16 @@ const MiniNav = () => {
         <Draggable>
         <ContainerRight className="hidden md:block z-10">
         <Nav>
-          <NavLink to="home" smooth={true} duration={500}>
+          <NavLink to="home" smooth="true" duration={500}>
             Home
           </NavLink>
-          <NavLink to="about" smooth={true} duration={500}>
+          <NavLink to="about" smooth="true" duration={500}>
             About
           </NavLink>
-          <NavLink to="projects" smooth={true} duration={500}>
+          <NavLink to="projects" smooth="true" duration={500}>
             Projects
           </NavLink>
-          <NavLink to="contact" smooth={true} duration={500}>
+          <NavLink to="contact" smooth="true" duration={500}>
             Contact
           </NavLink>
         </Nav>
@@ -26,17 +26,6 @@ const MiniNav = () => {
       </Draggable>
     )
 }
-// Styled Components for Mini Navbar
-// const ContainerLeft = styled.div`
-//   position: fixed;
-//   top: 10vh;
-//   left: 2vh;
-//   transform: translate(-50%, -50%);
-//   background: rgba(0, 0, 0, 0.7); /* Semi-transparent */
-//   padding: 10px 20px;
-//   border-radius: 12px;
-//   z-index: 1000;
-// `;
 
 const ContainerRight = styled.div`
   position: fixed;

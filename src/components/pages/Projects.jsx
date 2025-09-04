@@ -14,6 +14,7 @@ import surgevpic from '../../assets/projects/surgev.png';
 import linuxshellpic from '../../assets/projects/linuxshell.png'
 import cs395pic from '../../assets/projects/cs395.png'
 import focpic from '../../assets/projects/Nature-Photo.jpg'
+import Goat from '../../assets/2023-2024/goats.jpeg';
 
 
 import styled from "styled-components";
@@ -249,6 +250,20 @@ const Projects = () => {
             </StyledContent>
           </StyledContainer>
 
+          <StyledContainer>
+            <StyledBackground image={linuxshellpic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="min-w-[300px] text-2xl font-bold text-white tracking-wider">
+                linux-shell-cs240
+              </h2>
+              <p className="text-xl text-white">Spring 2024</p>
+              <a href="https://github.com/spbeal/linux-shell-cs240">
+                <StyledButton>Code</StyledButton>
+              </a>
+            </StyledContent>
+          </StyledContainer>
+
           {/* Archive Project Card */}
           <StyledContainer>
             <StyledBackground image={CS360PNG} />
@@ -264,19 +279,23 @@ const Projects = () => {
             </StyledContent>
           </StyledContainer>
 
+          {/* Archive Project Card */}
           <StyledContainer>
-            <StyledBackground image={linuxshellpic} />
+            <StyledBackground image={Goat} />
             <StyledOverlay />
             <StyledContent>
               <h2 className="min-w-[300px] text-2xl font-bold text-white tracking-wider">
-                linux-shell-cs240
+                Semantic Web
               </h2>
-              <p className="text-xl text-white">Spring 2024</p>
-              <a href="https://github.com/spbeal/linux-shell-cs240">
-                <StyledButton>Code</StyledButton>
+              <p className="text-xl text-white">Fall 2025</p>
+              <a href="/SemanticWeb/index.html">
+                <StyledButton>Link</StyledButton>
               </a>
             </StyledContent>
           </StyledContainer>
+
+          {/* Archive Project Card */}
+w
         </div>
       </div>
     </div>

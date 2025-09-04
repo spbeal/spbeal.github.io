@@ -1,9 +1,5 @@
 import React from 'react';
-import SELLogo from '../../../assets/60644576d213a1edd8b2507000d4f98a-4011923539.jpeg'; // Add relevant logos
-// import EventSecurityLogo from '../../../assets/2023-2024/EventSecurityLogo.png';
-// import TutorLogo from '../../../assets/2023-2024/TutorLogo.png';
-// import LifeguardLogo from '../../../assets/2023-2024/LifeguardLogo.png';
-// import WebDevLogo from '../../../assets/2023-2024/WebDevLogo.png';
+import SELLogo from '../../../assets/60644576d213a1edd8b2507000d4f98a-4011923539.jpeg'; 
 import UILogo from '../../../assets/2023-2024/universityofidaho.png';
 import FOCLogo from '../../../assets/2023-2024/FOC-Logo.png';
 
@@ -59,9 +55,9 @@ const experienceData = [
   },
 ];
 
-const Experience = () => {
+const Employment = () => {
   return (
-    <div name='experience' className='w-full min-h-screen'>
+    <div name='employment' className='w-full min-h-screen'>
       <div className="container mx-auto px-6 lg:px-16 py-32 flex flex-col items-center justify-center">
         <div className="w-full max-w-5xl p-6">
           <div className="text-center ">
@@ -100,12 +96,6 @@ const Experience = () => {
                     </div>
                   )}
                 </div>
-                {/* <div className='mt-4'>
-                  <h4 className='text-lg font-semibold'>Projects:</h4>
-                  <ul className='text-gray-600 list-disc list-inside'>
-                    {exp.projects && exp.projects.map((project, i) => <li key={i}>{project}</li>)}
-                  </ul>
-                </div> */}
               </div>
             </div>
           ))}
@@ -116,4 +106,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Employment;

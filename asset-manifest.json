@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c460cf57.css",
-    "main.js": "/static/js/main.c779bf7d.js",
+    "main.js": "/static/js/main.ebe368c9.js",
     "static/media/goats.jpeg": "/static/media/goats.5466cd1f262d56861b82.jpeg",
     "static/media/cssurvivor.png": "/static/media/cssurvivor.fb0674cc67c21626e44f.png",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
     "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
+    "static/media/vite-js-4096-logo-2031372859.png": "/static/media/vite-js-4096-logo-2031372859.ae50f2618d7bc02dd399.png",
     "static/media/Snapchat-sam2.jpg": "/static/media/Snapchat-sam2.f7d91aaefc1c99598d80.jpg",
     "static/media/lab2.png": "/static/media/lab2.54933d8c5a6369094635.png",
-    "static/media/resume.pdf": "/static/media/resume.a301cf92d0b5a594c647.pdf",
+    "static/media/resume.pdf": "/static/media/resume.30eb523926f61d0467cb.pdf",
     "static/media/surgev.png": "/static/media/surgev.fb334237aeca9a67ceaf.png",
     "static/media/stockmarket.jpg": "/static/media/stockmarket.83865b8d909173fe8f68.jpg",
     "static/media/Snapchat-sam1.jpg": "/static/media/Snapchat-sam1.6c5195c60a7f13f59f8f.jpg",
     "static/media/bccompilerpic.png": "/static/media/bccompilerpic.ba51c21186df66e9573c.png",
     "static/media/crafty3D.jpg": "/static/media/crafty3D.fc76ee71ea12ddba1c4a.jpg",
     "static/media/FOC-Logo.png": "/static/media/FOC-Logo.ac43149927d7c7ee11a8.png",
+    "static/media/secondport.png": "/static/media/secondport.7efa7fe33204b408aa71.png",
     "static/media/gallery.jpg": "/static/media/gallery.67b124297c97f225998d.jpg",
     "static/media/linuxshell.png": "/static/media/linuxshell.04256591105efc271723.png",
     "static/media/Cleandownloads.png": "/static/media/Cleandownloads.76d6a314ae54cbfaa3c1.png",
@@ -35,10 +37,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c460cf57.css.map": "/static/css/main.c460cf57.css.map",
-    "main.c779bf7d.js.map": "/static/js/main.c779bf7d.js.map"
+    "main.ebe368c9.js.map": "/static/js/main.ebe368c9.js.map"
   },
   "entrypoints": [
     "static/css/main.c460cf57.css",
-    "static/js/main.c779bf7d.js"
+    "static/js/main.ebe368c9.js"
   ]
 }

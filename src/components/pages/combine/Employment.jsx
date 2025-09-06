@@ -9,7 +9,7 @@ const experienceData = [
     company: 'Schweitzer Engineering Laboratories',
     years: 'Jan 2025 – Present',
     description: [
-      'Built full-stack containerized applications for embedded systems using React, MUI, TypeScript/JavaScript, with Golang backends, PostgreSQL, and OpenAPI.',
+      'Built full-stack containerized applications for embedded systems using React, Vite, MUI, TypeScript/JavaScript, with Golang backends, PostgreSQL, and OpenAPI.',
       'Delivered full-stack features in PureScript, extending functionality across existing applications.',
       'Refactored and migrated tens of thousands of lines of C# into a Golang package enabling efficient CRUD operations on Windows Structured Storage files (CFB format).',
       'Advanced the development of DTS, a custom Golang-based language with Nuclio.',
@@ -18,7 +18,7 @@ const experienceData = [
       'Collaborated in an Agile Scrum environment (Jira, Confluence, Bitbucket) contributing to code reviews, sprint planning, releases, and cross-team communication.',
     ],
     skills: [
-      'React', 'MUI', 'TypeScript', 'JavaScript', 'Golang', 'PostgreSQL', 'OpenAPI', 'PureScript', 'C#', 'Docker', 'Kubernetes','CI/CD', 'REST APIs', 'Networking', 'Agile', 'Scrum'
+      'React', 'Vite', 'MUI', 'TypeScript', 'JavaScript', 'Golang', 'PostgreSQL', 'OpenAPI', 'PureScript', 'C#', 'Docker', 'Kubernetes','CI/CD', 'REST APIs', 'Networking', 'Agile', 'Scrum'
     ],
     projects: [
       'Full-stack containerized embedded system app (React/MUI/TS/Go/PostgreSQL/OpenAPI)',

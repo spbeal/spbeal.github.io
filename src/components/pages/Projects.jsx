@@ -15,6 +15,7 @@ import linuxshellpic from '../../assets/projects/linuxshell.png'
 import cs395pic from '../../assets/projects/cs395.png'
 import focpic from '../../assets/projects/Nature-Photo.jpg'
 import Goat from '../../assets/2023-2024/goats.jpeg';
+import SemanticWeb from '../../assets/secondport.png';
 
 
 import styled from "styled-components";
@@ -281,7 +282,7 @@ const Projects = () => {
 
           {/* Archive Project Card */}
           <StyledContainer>
-            <StyledBackground image={Goat} />
+            <StyledBackground image={SemanticWeb} />
             <StyledOverlay />
             <StyledContent>
               <h2 className="min-w-[300px] text-2xl font-bold text-white tracking-wider">

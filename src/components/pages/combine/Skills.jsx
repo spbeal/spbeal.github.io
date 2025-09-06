@@ -12,9 +12,11 @@ import Cplusplus from '../../../assets/2023-2024/c++.png';
 import PythonImg from '../../../assets/2023-2024/python.png';
 import PureScriptImg from '../../../assets/purescript.png';
 import GolangImg from '../../../assets/go-2064624000.png';
+import ViteImg from '../../../assets/vite-js-4096-logo-2031372859.png';
 
 const skills = [
   { name: 'React', image: ReactImg },
+  { name: 'Vite', image: ViteImg },
   { name: 'TypeScript', image: typescript },
   { name: 'JavaScript', image: JavaScript },
   { name: 'Golang', image: GolangImg },

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c460cf57.css",
-    "main.js": "/static/js/main.ebe368c9.js",
+    "main.css": "/static/css/main.32f76a70.css",
+    "main.js": "/static/js/main.d20ce63d.js",
     "static/media/goats.jpeg": "/static/media/goats.5466cd1f262d56861b82.jpeg",
     "static/media/cssurvivor.png": "/static/media/cssurvivor.fb0674cc67c21626e44f.png",
     "static/media/universityofidaho.png": "/static/media/universityofidaho.d215a391988e92bc3821.png",
@@ -9,7 +9,7 @@
     "static/media/vite-js-4096-logo-2031372859.png": "/static/media/vite-js-4096-logo-2031372859.ae50f2618d7bc02dd399.png",
     "static/media/Snapchat-sam2.jpg": "/static/media/Snapchat-sam2.f7d91aaefc1c99598d80.jpg",
     "static/media/lab2.png": "/static/media/lab2.54933d8c5a6369094635.png",
-    "static/media/resume.pdf": "/static/media/resume.30eb523926f61d0467cb.pdf",
+    "static/media/resume-10-15.pdf": "/static/media/resume-10-15.e3d2f1e0e9e10b74817c.pdf",
     "static/media/surgev.png": "/static/media/surgev.fb334237aeca9a67ceaf.png",
     "static/media/stockmarket.jpg": "/static/media/stockmarket.83865b8d909173fe8f68.jpg",
     "static/media/Snapchat-sam1.jpg": "/static/media/Snapchat-sam1.6c5195c60a7f13f59f8f.jpg",
@@ -36,11 +36,11 @@
     "static/media/purescript.png": "/static/media/purescript.bd20b2daeb820f11709e.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.c460cf57.css.map": "/static/css/main.c460cf57.css.map",
-    "main.ebe368c9.js.map": "/static/js/main.ebe368c9.js.map"
+    "main.32f76a70.css.map": "/static/css/main.32f76a70.css.map",
+    "main.d20ce63d.js.map": "/static/js/main.d20ce63d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c460cf57.css",
-    "static/js/main.ebe368c9.js"
+    "static/css/main.32f76a70.css",
+    "static/js/main.d20ce63d.js"
   ]
 }

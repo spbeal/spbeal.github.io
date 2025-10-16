@@ -3,7 +3,7 @@ import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 // import Contact from "../pages/Contact";
 import { Link } from "react-router-dom";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/resume-10-15.pdf";
 // import ResumeViewer from '../resume';
 
 const Footer = () => {
@@ -31,7 +31,7 @@ const Footer = () => {
                                     </Link>
                                     </li> 
                                     <li>
-                                    <a href={Resume} download="My_Resume.pdf">
+                                    <a href={Resume} download="Samuel_Beal_Resume.pdf">
                                         Resume
                                     </a>
                                     </li> 
@@ -64,7 +64,7 @@ const Footer = () => {
                                 </Link>
                                 </li> 
                                 <li>
-                                <a href={Resume} download="My_Resume.pdf">
+                                <a href={Resume} download="Samuel_Beal_Resume.pdf">
                                     Resume
                                 </a>
                                 </li> 

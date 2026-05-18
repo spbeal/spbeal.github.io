@@ -16,7 +16,7 @@ import Experience from "./components/pages/Experience";
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen text-slate-900 page-shell">
+      <div className="min-h-screen page-shell">
         <ScrollToTop />
         <Navbar />
         

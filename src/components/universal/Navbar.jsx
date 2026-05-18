@@ -9,12 +9,27 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
-    const [darkMode, setDarkMode] = useState(
-      document.documentElement.classList.contains("dark")
-    );
+    const [darkMode, setDarkMode] = useState(() => {
+      if (typeof window === "undefined") {
+        return false;
+      }
+
+      const storedTheme = window.localStorage.getItem("theme");
+      if (storedTheme === "dark") {
+        return true;
+      }
+
+      if (storedTheme === "light") {
+        return false;
+      }
+
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    });
 
     useEffect(() => {
       document.documentElement.classList.toggle("dark", darkMode);
+      document.documentElement.style.colorScheme = darkMode ? "dark" : "light";
+      window.localStorage.setItem("theme", darkMode ? "dark" : "light");
     }, [darkMode]);
   
     const toggleDarkMode = () => {

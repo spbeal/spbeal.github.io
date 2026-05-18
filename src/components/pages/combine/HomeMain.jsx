@@ -43,13 +43,13 @@ const HomeMain = () => {
               <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
                 <Link
                   to="/projects"
-                  className="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/15 hover:-translate-y-0.5 hover:bg-slate-800"
+                  className="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/15 hover:-translate-y-0.5 hover:bg-slate-800 dark:bg-slate-300/40 "
                 >
                   View Projects
                 </Link>
                 <Link
                   to="/contact"
-                  className="rounded-full border border-slate-300 bg-white/80 px-6 py-3 text-sm font-semibold text-slate-800 hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600"
+                  className="rounded-full border border-slate-600 bg-white/80 px-6 py-3 text-sm font-semibold text-slate-800 hover:-translate-y-0.5"
                 >
                  Contact Me
                 </Link>

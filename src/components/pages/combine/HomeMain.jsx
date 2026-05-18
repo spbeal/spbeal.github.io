@@ -1,8 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-//import SamBlob from "../../../assets/2023-2024/blobimageofme.png";
-//import SamBlob from "../../../assets/Snapchat-sam1.jpg";
 import SamBlob from "../../../assets/Snapchat-sam2.jpg";
 
 const HomeMain = () => {
@@ -13,24 +11,21 @@ const HomeMain = () => {
       </Helmet>
       
       <div className="container mx-auto px-6 lg:px-16 py-32 flex flex-col-reverse lg:flex-row items-center gap-12 justify-center">
-        {/* Text Section */}
         <div className="text-center lg:text-left max-w-2xl">
-          {/* <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
-            Samuel Beal
-          </h1> */}
           <div className="">
           <p className="text-5xl font-extrabold inline leading-tight border-pink-600">
            Samuel Beal
           </p>
         </div>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-            I am an Associate Software Engineer @ SEL who graduated from University of Idaho in Computer Science with a certificate in AI/ML. 
-            Experienced in developing full-stack projects using React, TS/JS, Golang, PureScript, Python, C++, C#, and MySQL.
-            When I'm not studying, I am out with friends, swing dancing, playing rugby, water polo, 
-            or programming a new project.
+            I am an Associate Software Engineer at SEL focused on building practical,
+            reliable software across the stack. I graduated from the University of Idaho
+            with a computer science degree and an AI/ML certificate, and I enjoy working
+            across React, TypeScript, Go, PureScript, Python, C++, C#, and SQL-driven
+            systems. Outside of work, I am usually swing dancing, playing rugby or water
+            polo, spending time with friends, or building the next side project.
           </p>
-          
-          {/* Social icons */}
+
           <div className="mt-6 flex justify-center lg:justify-start space-x-6">
             <a href="https://www.linkedin.com/in/samuelbeal/" className="text-blue-600 hover:text-blue-800">
               <FaLinkedin size={35} />
@@ -40,8 +35,7 @@ const HomeMain = () => {
             </a>
           </div>
         </div>
-        
-        {/* Image Section */}
+
         <div className="w-72 h-72 lg:w-80 lg:h-80 flex-shrink-0">
           <img className="w-full h-full object-cover rounded-full shadow-lg" src={SamBlob} alt="Samuel Beal" />
         </div>

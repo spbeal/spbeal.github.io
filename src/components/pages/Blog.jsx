@@ -7,14 +7,14 @@ const Blog = () => {
     {
       id: 1,
       title: "SurgeV",
-      content: "Developing a business website",
+      content: "Building and shipping an ecommerce site for a creatine gummy brand.",
       datePosted: "2025-02-28",
       link: "surgev",
     },
     {
       id: 2,
       title: "Trading Bots",
-      content: "Building automated trading bots using AWS, Python, and ML.",
+      content: "Notes from experimenting with automated trading systems, cloud tooling, and risk management.",
       datePosted: "2025-08-29",
       link: "trading-bots",
     },
@@ -49,9 +49,13 @@ const Blog = () => {
         <div className="max-w-4xl w-full p-6">
         <div className="pb-8 text-center">
         <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
-               drop-shadow-lg">            My Blog
+               drop-shadow-lg">            Notes & Updates
           </p>
         </div>
+          <p className="text-lg text-gray-700 mb-8 text-center leading-relaxed">
+            A small collection of project write-ups, experiments, and progress updates from
+            the work I am doing on the side.
+          </p>
           <div className="mb-8">
             <input
               type="text"
@@ -82,10 +86,10 @@ const Blog = () => {
                 </div>
               ))
             ) : (
-              <p className="text-gray-600">No posts found</p>
+              <p className="text-gray-600">No posts matched your search.</p>
             )}
           </div>
-          <p className="w-32 text-xl font-bold border-b-4 border-pink-600 my-6">Total posts: {posts.length}</p>
+          <p className="w-40 text-xl font-bold border-b-4 border-pink-600 my-6">Total posts: {posts.length}</p>
           <div className="flex justify-center space-x-2 mt-8">
             {filteredPosts.length > postsPerPage && (
               <>

@@ -1,9 +1,7 @@
 
-import React, {useState, useEffect} from 'react'
+import { useEffect, useState } from 'react';
 import Logo from '../../assets/2023-2024/SB nice color.png'
 import {FaBars, FaTimes, FaCloudMoon, FaCloudSun} from "react-icons/fa"
-//import {Link} from 'react-scroll'
-
 import { Link } from 'react-router-dom';
 
 
@@ -11,37 +9,17 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
-    useEffect(() => {
-      const button = document.getElementById("darkModeToggle");
-  
-      if (button) {
-        button.addEventListener("click", toggleDarkMode);
-      }
-  
-      return () => {
-        if (button) {
-          button.removeEventListener("click", toggleDarkMode);
-        }
-      };
-    }, []);
-
     const [darkMode, setDarkMode] = useState(
       document.documentElement.classList.contains("dark")
     );
+
     useEffect(() => {
-      if (darkMode) {
-        //document.documentElement.classList.add("dark");
-      } else {
-        //document.documentElement.classList.remove("dark");
-      }
+      document.documentElement.classList.toggle("dark", darkMode);
     }, [darkMode]);
   
     const toggleDarkMode = () => {
       setDarkMode((prevMode) => !prevMode);
     };
-    // const toggleDarkMode = () => {
-    //   document.documentElement.classList.toggle("dark");
-    // };
 
   return (
     <div className="shadow-sm shadow-[#040c16] bg-gray-800 text-white  fixed w-full h-[80px] justify-between flex items-center px-4 z-50">
@@ -49,7 +27,7 @@ const Navbar = () => {
       
        <div className=''>
         <nav>
-            <Link to="/" smooth="true" duration={500} >
+            <Link to="/">
               <img src={Logo} alt="Logo" style={{ width: "60px" }} />                
           </Link>
         </nav>
@@ -61,43 +39,39 @@ const Navbar = () => {
           <nav>
            <ul className='hidden md:flex text-lg mx-2 gap-x-5 cursor-pointer  '>
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/" smooth="true" duration={500} >
+                <Link to="/">
                 Home
                 </Link>
               </li>
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/about" smooth="true" duration={500} >
+                <Link to="/about">
                 About
                 </Link>
               </li>
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/experience" smooth="true" duration={500} >
+                <Link to="/experience">
                 Experience
                 </Link>
               </li> 
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/blog" smooth="true" duration={500} >
+                <Link to="/blog">
                 Blog
                 </Link>
               </li> {/* Could combine About with Contact */}
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/projects" smooth="true" duration={500} >
+                <Link to="/projects">
                 Projects
                 </Link>
               </li> 
 
               <li className='block text-lg px-4 py-2 hover:bg-gray-700 rounded-lg '>
-                <Link to="/portfolio" smooth="true" duration={500} >
+                <Link to="/portfolio">
                 Portfolio
                 </Link>
               </li> 
-
-              {/* <li>
-                <a href='https://sambeal.dev/portfolio/' className="hover:text-blue-500"> Portfolio</a>
-                </li> */}
             </ul>
           </nav>
 
@@ -114,37 +88,37 @@ const Navbar = () => {
           }
         >
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/" smooth="true" duration={500} >
+            <Link onClick={handleClick} to="/">
                 Home
               </Link>
             </li>
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/about" smooth="true" duration={500} >
+            <Link onClick={handleClick} to="/about">
                 About
               </Link>
             </li>
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/experience" smooth="true" duration={500} >
+            <Link onClick={handleClick} to="/experience">
                 Experience
               </Link>
             </li> 
 
             <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-            <Link onClick={handleClick} to="/projects" smooth="true" duration={500} >
+            <Link onClick={handleClick} to="/projects">
                 Projects
               </Link>
               </li> 
 
               <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-              <Link onClick={handleClick} to="/blog" smooth="true" duration={500} >
+              <Link onClick={handleClick} to="/blog">
                 Blog
               </Link>
               </li> 
 
               <li className='py-6 text-4xl block  px-4  hover:bg-gray-700 rounded-lg'>
-              <Link onClick={handleClick} to="/portfolio" smooth="true" duration={500} >
+              <Link onClick={handleClick} to="/portfolio">
                 Portfolio
               </Link>
               </li> 

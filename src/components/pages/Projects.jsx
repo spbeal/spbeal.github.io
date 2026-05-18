@@ -14,7 +14,6 @@ import surgevpic from '../../assets/projects/surgev.png';
 import linuxshellpic from '../../assets/projects/linuxshell.png'
 import cs395pic from '../../assets/projects/cs395.png'
 import focpic from '../../assets/projects/Nature-Photo.jpg'
-import Goat from '../../assets/2023-2024/goats.jpeg';
 import SemanticWeb from '../../assets/secondport.png';
 
 
@@ -35,8 +34,25 @@ const Projects = () => {
         </div>
         {/* Projects Grid */}
         <div className="min-w-[300px] grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
-                      {/* Project Card */}
-                      <StyledContainer>
+          {/* Project Card */}
+          <StyledContainer>
+            <StyledBackground image={StockPic} />
+            <StyledOverlay />
+            <StyledContent>
+              <h2 className="text-2xl font-bold text-white tracking-wider">
+                NewWorld Trading
+              </h2>
+              <p className="text-xl text-white">2025</p>
+              <div className="min-w-[300px] mt-4 space-x-4">
+                <a href="https://newworld.trading">
+                  <StyledButton>Website</StyledButton>
+                </a>
+              </div>
+            </StyledContent>
+          </StyledContainer>
+
+          {/* Project Card */}
+          <StyledContainer>
             <StyledBackground image={surgevpic} />
             <StyledOverlay />
             <StyledContent>
@@ -295,8 +311,6 @@ const Projects = () => {
             </StyledContent>
           </StyledContainer>
 
-          {/* Archive Project Card */}
-w
         </div>
       </div>
     </div>

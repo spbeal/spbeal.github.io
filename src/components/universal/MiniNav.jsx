@@ -1,6 +1,5 @@
-// Portfolio.js
 import React from 'react';
-import { Link } from 'react-scroll'; // Import from react-scroll
+import { Link } from 'react-scroll';
 import styled from "styled-components";
 import Draggable from "react-draggable";
 
@@ -29,17 +28,17 @@ const MiniNav = () => {
 
 const ContainerRight = styled.div`
   position: fixed;
-  top: 12vh; /* Keep some spacing from the top */
-  right: 2vh; /* Move to the right instead of left */
-  transform: translate(0, 0); /* Remove centering effect */
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent */
+  top: 12vh;
+  right: 2vh;
+  transform: translate(0, 0);
+  background: rgba(0, 0, 0, 0.7);
   padding: 10px 20px;
   border-radius: 12px;
   z-index: 1000;
 
-  display: none;  /* Hidden by default */
+  display: none;
 
-  @media (min-width: 1240px) and (min-height: 680px) {  /* Both must be true */
+  @media (min-width: 1240px) and (min-height: 680px) {
     display: block;
   }
 `;
@@ -58,7 +57,7 @@ const NavLink = styled(Link)`
   transition: color 0.3s ease;
 
   &:hover {
-    color: #ff69b4; /* Pink hover effect */ 
+    color: #ff69b4;
   }
 `;
 

@@ -5,7 +5,6 @@ import JavaScript from '../../../assets/2023-2024/javascript.png';
 import ReactImg from '../../../assets/2023-2024/react.png';
 import csharp from '../../../assets/2023-2024/icons8-c-sharp.png';
 import flask from '../../../assets/2023-2024/icons8-flask-50.png';
-// import tailwind from '../../../assets/icons/tailwind.png';
 import c_icon from '../../../assets/icons/pngkit_download-png_1010012.png';
 import typescript from '../../../assets/icons/png-transparent-typescript-plain-logo-icon-3069667125.png';
 import Cplusplus from '../../../assets/2023-2024/c++.png';
@@ -54,11 +53,8 @@ const Skills = () => {
         <h2 className='text-4xl font-extrabold text-gray-900 border-b-4 border-pink-600 inline-block'>
           Skills
         </h2>
-        {/* <p className='mt-4 text-lg text-gray-700'>These are some of the technologies I've worked with:</p> */}
 
-        {/* Mini Skills Section */}
         <div className="mt-6">
-          {/* <h3 className="text-2xl font-bold text-gray-800 mb-4">Misc Skills</h3> */}
           <div className="flex flex-wrap justify-center gap-3">
             {miniSkills.map((mini, idx) => (
               <span
@@ -71,7 +67,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Skills Grid */}
         <div className='mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8'>
           {skills.map((skill, index) => (
             <div key={index} className='flex flex-col items-center p-4 bg-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105'>

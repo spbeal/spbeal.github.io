@@ -9,13 +9,13 @@ const experienceData = [
     company: 'Schweitzer Engineering Laboratories',
     years: 'Jan 2025 – Present',
     description: [
-      'Built full-stack containerized applications for embedded systems using React, Vite, MUI, TypeScript/JavaScript, with Golang backends, PostgreSQL, and OpenAPI.',
-      'Delivered full-stack features in PureScript, extending functionality across existing applications.',
-      'Refactored and migrated tens of thousands of lines of C# into a Golang package enabling efficient CRUD operations on Windows Structured Storage files (CFB format).',
-      'Advanced the development of DTS, a custom Golang-based language with Nuclio.',
-      'Wrote automation scripts interfacing with relays, REST APIs, network protocols, and authentication systems for clients such as Entergy and Southern Company.',
-      'Designed, containerized, and deployed applications using Docker, Kubernetes, and Jenkins CI/CD pipelines.',
-      'Collaborated in an Agile Scrum environment (Jira, Confluence, Bitbucket) contributing to code reviews, sprint planning, releases, and cross-team communication.',
+      'Build full-stack, containerized applications for embedded systems with React, Vite, MUI, TypeScript/JavaScript, Golang, PostgreSQL, and OpenAPI.',
+      'Delivered features in PureScript across established production applications.',
+      'Refactored and migrated a large C# codebase into a Golang package for CRUD operations on Windows Structured Storage files (CFB format).',
+      'Contributed to DTS, a custom Golang-based language developed with Nuclio.',
+      'Write automation scripts that integrate with relays, REST APIs, network protocols, and authentication systems for customers such as Entergy and Southern Company.',
+      'Design and deploy applications with Docker, Kubernetes, and Jenkins-based CI/CD pipelines.',
+      'Collaborate in Agile teams through code reviews, sprint planning, release work, and cross-team delivery.',
     ],
     skills: [
       'React', 'Vite', 'MUI', 'TypeScript', 'JavaScript', 'Golang', 'PostgreSQL', 'OpenAPI', 'PureScript', 'C#', 'Docker', 'Kubernetes','CI/CD', 'REST APIs', 'Networking', 'Agile', 'Scrum'
@@ -34,8 +34,8 @@ const experienceData = [
     company: 'Friends Of the Clearwater',
     years: 'Nov 2024 – Jan 2025',
     description: [
-      'Implemented an embedded donation page using Stripe to enhance UX and streamline the donation process',
-      'Improved website aesthetics through design principles and added features such as a newsletter pop-up.',
+      'Built an embedded Stripe donation flow to reduce friction and improve the giving experience.',
+      'Refreshed the site experience with cleaner layouts and newsletter signup features.',
     ],
     skills: ['WordPress', 'Stripe', 'PHP', 'JavaScript', 'HTML', 'CSS', 'UI/UX',],
     projects: [],
@@ -46,8 +46,8 @@ const experienceData = [
     company: 'University of Idaho',
     years: 'Sep 2024 – Present',
     description: [
-      'Directly worked with a diverse range of students & topics.',
-      'Expanded my ability to adapt and articulate advanced programming concepts.',
+      'Supported students across computer science and related technical coursework.',
+      'Strengthened my ability to adapt explanations to different learning styles and experience levels.',
     ],
     image: UILogo,
     skills: ['Communication', 'Composure', 'Adaptability'],

@@ -14,7 +14,8 @@ const Contact = () => {
           </p>
         </div>
         <p className="text-lg text-gray-600 text-center mb-8">
-          Submit the form below or send me an email at{" "}
+          If you want to talk about software, projects, or an opportunity to work together,
+          send a message below or email me at{" "}
           <a href="mailto:sampbeal@gmail.com" className="text-pink-600 hover:underline">
             sampbeal@gmail.com
           </a>
@@ -28,7 +29,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder="Your name"
               className="w-full p-3 border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-pink-600"
             />
           </div>
@@ -36,7 +37,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Your email"
               className="w-full p-3 border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-pink-600"
             />
           </div>
@@ -53,7 +54,7 @@ const Contact = () => {
               type="submit"
               className="w-full py-3 px-6 bg-gray-700 text-white text-lg font-semibold rounded-md shadow-md hover:bg-gray-800 transition duration-200"
             >
-              Let's Connect
+              Send Message
             </button>
           </div>
         </form>

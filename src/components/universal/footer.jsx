@@ -1,12 +1,11 @@
-
 import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa"
-// import Contact from "../pages/Contact";
 import { Link } from "react-router-dom";
 import Resume from "../../assets/resume-10-15.pdf";
-// import ResumeViewer from '../resume';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
   return (
         <div className=''>
         <div name="footer " className="shadow-md shadow-[#040c16] bg-gray-800 dark:bg-universal-dark100 z-50" style={styles.footer}>
@@ -26,7 +25,7 @@ const Footer = () => {
                             <nav>
                                 <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
                                     <li>
-                                    <Link to="/contact" smooth="true" duration={500} >
+                                    <Link to="/contact">
                                     Contact Me
                                     </Link>
                                     </li> 
@@ -40,7 +39,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className='text-center pb-2'>
-                            © 2025 All rights reserved by <strong>Samuel Beal</strong>
+                            © {currentYear} All rights reserved by <strong>Samuel Beal</strong>
                     </p>
                 </div>
             </div>            
@@ -59,7 +58,7 @@ const Footer = () => {
                             <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
                 
                                 <li>
-                                <Link to="/contact" smooth="true" duration={500} >
+                                <Link to="/contact">
                                 Contact
                                 </Link>
                                 </li> 
@@ -72,7 +71,7 @@ const Footer = () => {
                         </nav>
                     </div>
                     <p className='text-sm text-center'>
-                        © 2025 All rights reserved by <strong>Samuel Beal</strong>
+                        © {currentYear} All rights reserved by <strong>Samuel Beal</strong>
                     </p>
                 </div>
             </div>
@@ -86,8 +85,6 @@ const styles = {
     footer: {
       textAlign: 'center',
       padding: '10px',
-      //backgroundColor: '#f1f1f1',
-    //   position: 'fixed',
       bottom: 0,
       width: '100%',
       fontSize: '14px',

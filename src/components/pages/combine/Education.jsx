@@ -5,14 +5,14 @@ import GRC from '../../../assets/2023-2024/Green River College.jpg';
 const educationData = [
   {
     school: 'University of Idaho',
-    degree: 'Computer Science with AI/ML Certificate',
+    degree: 'Computer Science, AI/ML Certificate',
     years: '2023 - 2025',
     gpa: '3.8/4.0',
     image: Uidaho,
   },
   {
     school: 'Green River College',
-    degree: 'Associate in Arts',
+    degree: 'Associate of Arts',
     years: '2021 - 2023',
     gpa: '4.0/4.0',
     image: GRC,

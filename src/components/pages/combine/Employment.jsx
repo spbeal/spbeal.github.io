@@ -57,38 +57,39 @@ const experienceData = [
 
 const Employment = () => {
   return (
-    <div name='employment' className='w-full min-h-screen'>
-      <div className="container mx-auto px-6 lg:px-16 py-32 flex flex-col items-center justify-center">
+    <div name='employment' className='w-full min-h-screen page-shell'>
+      <div className="page-container py-32 flex flex-col items-center justify-center">
         <div className="w-full max-w-5xl p-6">
-          <div className="text-center ">
-            <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
-               drop-shadow-lg">
-              Experience
+          <div className="text-center">
+            <span className="section-eyebrow">Career</span>
+            <h1 className="section-title">Experience</h1>
+            <p className="section-copy mx-auto max-w-3xl">
+              Roles that shaped how I think about engineering quality, collaboration, and delivery.
             </p>
           </div>
-        <div className='mt-8 space-y-8'>
+        <div className='mt-10 space-y-8'>
           {experienceData.map((exp, index) => (
-            <div key={index} className='flex flex-col md:flex-row items-center bg-gray-200 shadow-md rounded-lg p-6 transition-transform transform hover:scale-100'>
-              <img className='w-24 h-24 object-contain' src={exp.image} alt={`${exp.company} logo`} />
-              <div className='md:ml-6 text-left'>
-                <h2 className='text-2xl font-semibold'>{exp.title}</h2>
-                <h3>{exp.company}</h3>
-                <p className='text-lg text-gray-700'>{exp.years}</p>
+            <div key={index} className='surface-card flex flex-col gap-6 rounded-[30px] p-6 transition-transform hover:-translate-y-1 md:flex-row md:items-start md:p-8'>
+              <img className='h-24 w-24 rounded-2xl bg-white/80 object-contain p-3' src={exp.image} alt={`${exp.company} logo`} />
+              <div className='md:ml-2 text-left'>
+                <h2 className='text-2xl font-semibold text-slate-900'>{exp.title}</h2>
+                <h3 className='mt-1 text-lg font-medium text-slate-700'>{exp.company}</h3>
+                <p className='mt-2 inline-flex rounded-full bg-pink-100 px-3 py-1 text-sm font-semibold text-pink-700'>{exp.years}</p>
                 <div className='mt-4'>
-                  <ul className='text-gray-600 list-disc list-inside'>
+                  <ul className='list-disc list-inside space-y-2 text-slate-600'>
                     {exp.description.map((desc, i) => (
                       <li key={i}>{desc}</li>
                     ))}
                   </ul>
                 </div>
                 <div className='mt-4'>
-                  <h4 className='text-lg font-semibold mb-2'>Skills:</h4>
+                  <h4 className='mb-3 text-lg font-semibold text-slate-900'>Skills</h4>
                   {exp.skills && exp.skills.length > 0 && (
                     <div className="flex flex-wrap gap-2">
                       {exp.skills.map((skill, i) => (
                         <span
                           key={i}
-                          className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold shadow"
+                          className="rounded-full border border-pink-100 bg-white/80 px-3 py-1 text-sm font-semibold text-pink-700 shadow-sm"
                         >
                           {skill}
                         </span>

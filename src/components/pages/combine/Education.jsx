@@ -21,20 +21,19 @@ const educationData = [
 
 const Education = () => {
   return (
-    <div name='education' className='w-full   py-16'>
+    <div name='education' className='w-full py-16'>
       <div className='max-w-5xl mx-auto px-6 text-center'>
-        <h2 className='text-4xl font-extrabold text-gray-900 border-b-4 border-pink-600 inline-block'>
-          Education
-        </h2>
+        <span className='section-eyebrow'>Background</span>
+        <h2 className='section-title'>Education</h2>
         <div className='mt-10 space-y-8'>
           {educationData.map((edu, index) => (
-            <div key={index} className='flex flex-col md:flex-row items-center bg-gray-200 shadow-md rounded-lg p-6 transition-transform transform hover:scale-105'>
-              <img className='w-24 h-24 object-contain' src={edu.image} alt={`${edu.school} logo`} />
-              <div className='md:ml-6 text-left'>
-                <h3 className='text-2xl font-semibold'>{edu.school}</h3>
-                <p className='text-lg text-gray-700'>{edu.degree}</p>
-                <p className='text-gray-600'>{edu.years}</p>
-                <p className='text-gray-600 font-medium'>GPA: {edu.gpa}</p>
+            <div key={index} className='surface-card flex flex-col gap-5 rounded-[28px] p-6 text-left transition-transform hover:-translate-y-1 md:flex-row md:items-center md:p-8'>
+              <img className='h-24 w-24 rounded-2xl bg-white/80 object-contain p-3' src={edu.image} alt={`${edu.school} logo`} />
+              <div className='md:ml-2 text-left'>
+                <h3 className='text-2xl font-semibold text-slate-900'>{edu.school}</h3>
+                <p className='text-lg text-slate-700'>{edu.degree}</p>
+                <p className='text-slate-500'>{edu.years}</p>
+                <p className='mt-2 inline-flex rounded-full bg-pink-100 px-3 py-1 text-sm font-semibold text-pink-700'>GPA: {edu.gpa}</p>
               </div>
             </div>
           ))}

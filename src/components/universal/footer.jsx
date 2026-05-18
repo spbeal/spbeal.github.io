@@ -7,89 +7,40 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
   return (
-        <div className=''>
-        <div name="footer " className="shadow-md shadow-[#040c16] bg-gray-800 dark:bg-universal-dark100 z-50" style={styles.footer}>
-        {/* Container */}
-        
-            <div className="leading-8 text-white">
-                <div className="text-lg hidden sm:block">
-                    <div className="justify-center">
-                        {/* Social icons */}
-                        <div className="flex py-4 space-x-4 justify-center">
-                            <a href="https://www.linkedin.com/in/samuelbeal/">
-                                <FaLinkedin size={30} />
+        <footer className="relative px-4 pb-8 pt-4">
+            <div className="page-container">
+                <div className="surface-card rounded-[28px] px-6 py-6">
+                    <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+                        <div className="text-left">
+                            <p className="text-sm font-bold uppercase tracking-[0.28em] text-pink-600">Samuel Beal</p>
+                            <p className="mt-2 max-w-xl text-sm leading-7 text-slate-600">
+                                Associate Software Engineer focused on building practical full-stack software.
+                            </p>
+                        </div>
+
+                        <div className="flex flex-wrap items-center gap-3 text-slate-700">
+                            <a className="rounded-full border border-slate-200 bg-white/80 p-3 hover:-translate-y-0.5 hover:text-pink-600" href="https://www.linkedin.com/in/samuelbeal/">
+                                <FaLinkedin size={22} />
                             </a>
-                            <a className="" href="https://github.com/spbeal">
-                                <FaGithub size={30} />
+                            <a className="rounded-full border border-slate-200 bg-white/80 p-3 hover:-translate-y-0.5 hover:text-pink-600" href="https://github.com/spbeal">
+                                <FaGithub size={22} />
                             </a>
-                            <nav>
-                                <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
-                                    <li>
-                                    <Link to="/contact">
-                                    Contact Me
-                                    </Link>
-                                    </li> 
-                                    <li>
-                                    <a href={Resume} download="Samuel_Beal_Resume.pdf">
-                                        Resume
-                                    </a>
-                                    </li> 
-                                </ul>
-                            </nav>
+                            <Link className="rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:text-pink-600" to="/contact">
+                                Contact
+                            </Link>
+                            <a className="rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:text-pink-600" href={Resume} download="Samuel_Beal_Resume.pdf">
+                                Resume
+                            </a>
                         </div>
                     </div>
-                    <p className='text-center pb-2'>
-                            © {currentYear} All rights reserved by <strong>Samuel Beal</strong>
-                    </p>
-                </div>
-            </div>            
-            {/* Mobile */}
-            <div className="sm:hidden text-white">
-                <div>
-                    {/* Social icons */}
-                    <div className="py-4 flex justify-center space-x-4">
-                        <a className="" href="https://www.linkedin.com/in/samuelbeal/">
-                            <FaLinkedin size={30} />
-                        </a>
-                        <a className="" href="https://github.com/spbeal">
-                            <FaGithub size={30} />
-                        </a>
-                            <nav>
-                            <ul className='flex text-lg mx-2 gap-x-5 cursor-pointer'>
-                
-                                <li>
-                                <Link to="/contact">
-                                Contact
-                                </Link>
-                                </li> 
-                                <li>
-                                <a href={Resume} download="Samuel_Beal_Resume.pdf">
-                                    Resume
-                                </a>
-                                </li> 
-                            </ul>
-                        </nav>
-                    </div>
-                    <p className='text-sm text-center'>
+
+                    <p className='mt-6 text-sm text-slate-500'>
                         © {currentYear} All rights reserved by <strong>Samuel Beal</strong>
                     </p>
                 </div>
             </div>
-
-        </div>
-        </div>
+        </footer>
   );
 };
-
-const styles = {
-    footer: {
-      textAlign: 'center',
-      padding: '10px',
-      bottom: 0,
-      width: '100%',
-      fontSize: '14px',
-      color: '#333',
-    },
-  };
   
 export default Footer

@@ -1,17 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap')
+:root {
+  --page-ink: #14213d;
+  --page-muted: #52607a;
+  --page-panel: rgba(255, 255, 255, 0.78);
+  --page-panel-strong: rgba(255, 255, 255, 0.92);
+  --page-line: rgba(20, 33, 61, 0.1);
+  --page-accent: #db2777;
+  --page-accent-soft: rgba(219, 39, 119, 0.14);
+}
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-[Raleway];
+    color: var(--page-ink);
+    background:
+      radial-gradient(circle at top left, rgba(251, 191, 36, 0.22), transparent 28%),
+      radial-gradient(circle at top right, rgba(219, 39, 119, 0.14), transparent 32%),
+      linear-gradient(180deg, #fff8f3 0%, #f6f7fb 42%, #eef2f8 100%);
+    min-height: 100vh;
   }
+
   li {
     @apply px-4;
     @apply cursor-pointer;
   }
+
+  a {
+    transition: color 180ms ease, opacity 180ms ease, transform 180ms ease;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply relative overflow-hidden;
+  }
+
+  .page-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.78), transparent 22%),
+      radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.55), transparent 18%);
+    pointer-events: none;
+  }
+
+  .page-container {
+    @apply relative mx-auto w-full max-w-6xl px-6 lg:px-12;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center rounded-full border px-4 py-1 text-sm font-semibold uppercase tracking-[0.24em];
+    color: var(--page-accent);
+    background: rgba(255, 255, 255, 0.72);
+    border-color: rgba(219, 39, 119, 0.18);
+  }
+
+  .section-title {
+    @apply mt-5 text-4xl font-black leading-tight sm:text-5xl;
+    color: var(--page-ink);
+  }
+
+  .section-copy {
+    @apply mt-4 text-lg leading-8;
+    color: var(--page-muted);
+  }
+
+  .surface-card {
+    background: var(--page-panel);
+    border: 1px solid var(--page-line);
+    box-shadow: 0 22px 55px rgba(148, 163, 184, 0.18);
+    backdrop-filter: blur(14px);
+  }
+
+  .soft-grid {
+    background-image:
+      linear-gradient(rgba(20, 33, 61, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(20, 33, 61, 0.045) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: center;
+  }
+}
+
+::selection {
+  background: rgba(219, 39, 119, 0.22);
+  color: #111827;
 }
 
 .content-div {

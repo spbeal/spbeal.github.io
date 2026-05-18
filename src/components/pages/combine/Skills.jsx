@@ -48,18 +48,17 @@ const miniSkills = [
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full min-h-screen py-16'>
+    <div name='skills' className='w-full py-16 pb-24'>
       <div className='max-w-5xl mx-auto px-6 text-center'>
-        <h2 className='text-4xl font-extrabold text-gray-900 border-b-4 border-pink-600 inline-block'>
-          Skills
-        </h2>
+        <span className='section-eyebrow'>Toolkit</span>
+        <h2 className='section-title'>Skills</h2>
 
         <div className="mt-6">
           <div className="flex flex-wrap justify-center gap-3">
             {miniSkills.map((mini, idx) => (
               <span
                 key={idx}
-                className="bg-pink-100 text-pink-700 px-4 py-1 rounded-full text-sm font-semibold shadow"
+                className="bg-white/80 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold shadow-sm border border-pink-100"
               >
                 {mini}
               </span>
@@ -69,9 +68,9 @@ const Skills = () => {
 
         <div className='mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8'>
           {skills.map((skill, index) => (
-            <div key={index} className='flex flex-col items-center p-4 bg-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105'>
+            <div key={index} className='surface-card flex flex-col items-center rounded-[24px] p-5 transition-transform hover:-translate-y-1'>
               <img className='w-16 h-16' src={skill.image} alt={`${skill.name} icon`} />
-              <p className='mt-3 text-lg font-medium text-gray-900'>{skill.name}</p>
+              <p className='mt-3 text-lg font-medium text-slate-900'>{skill.name}</p>
             </div>
           ))}
         </div>

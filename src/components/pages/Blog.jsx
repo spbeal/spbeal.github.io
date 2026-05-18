@@ -41,28 +41,27 @@ const Blog = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="min-h-screen pt-32">
+    <div className="min-h-screen page-shell pt-32 pb-24">
       <Helmet>
         <title>Blog - Samuel</title>
       </Helmet>
-      <div className="flex flex-col items-center w-full">
+      <div className="page-container flex flex-col items-center w-full">
         <div className="max-w-4xl w-full p-6">
-        <div className="pb-8 text-center">
-        <p className="text-5xl font-extrabold inline-block leading-tight border-b-4 border-pink-600 pb-2 
-               drop-shadow-lg">            Notes & Updates
-          </p>
-        </div>
-          <p className="text-lg text-gray-700 mb-8 text-center leading-relaxed">
+          <div className="pb-8 text-center">
+            <span className="section-eyebrow">Writing</span>
+            <h1 className="section-title">Notes & Updates</h1>
+          </div>
+          <p className="section-copy mb-8 text-center leading-relaxed">
             A small collection of project write-ups, experiments, and progress updates from
             the work I am doing on the side.
           </p>
-          <div className="mb-8">
+          <div className="surface-card mb-8 rounded-[24px] p-4 sm:p-5">
             <input
               type="text"
               placeholder="Search blog posts..."
               value={searchQuery}
               onChange={handleSearchChange}
-              className="w-full p-3 text-lg border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-pink-600"
+              className="w-full rounded-2xl border border-slate-200 bg-white/90 p-4 text-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
             />
           </div>
           <div className="space-y-6">
@@ -70,26 +69,26 @@ const Blog = () => {
               currentPosts.map((post) => (
                 <div
                   key={post.id}
-                  className="flex flex-col items-start bg-gray-200 shadow-lg rounded-lg p-6 hover:bg-gray-100 transition-colors"
+                  className="surface-card flex flex-col items-start rounded-[26px] p-6 transition-transform hover:-translate-y-1"
                 >
-                  <h2 className="text-2xl font-bold text-gray-900 hover:text-pink-600 transition-colors">
+                  <h2 className="text-2xl font-bold text-slate-900 hover:text-pink-600 transition-colors">
                     <Link to={post.link}>{post.title}</Link>
                   </h2>
-                  <p className="text-sm text-gray-500 mt-2">
+                  <p className="mt-2 text-sm text-slate-500">
                     Posted on: {new Date(post.datePosted).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",
                       day: "numeric",
                     })}
                   </p>
-                  <p className="text-gray-700 mt-3">{post.content}</p>
+                  <p className="mt-3 text-slate-700">{post.content}</p>
                 </div>
               ))
             ) : (
-              <p className="text-gray-600">No posts matched your search.</p>
+              <p className="text-slate-600">No posts matched your search.</p>
             )}
           </div>
-          <p className="w-40 text-xl font-bold border-b-4 border-pink-600 my-6">Total posts: {posts.length}</p>
+          <p className="my-6 inline-flex rounded-full bg-white/80 px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm">Total posts: {posts.length}</p>
           <div className="flex justify-center space-x-2 mt-8">
             {filteredPosts.length > postsPerPage && (
               <>

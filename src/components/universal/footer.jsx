@@ -1,7 +1,6 @@
 import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 import { Link } from "react-router-dom";
-import Resume from "../../assets/resume-10-15.pdf";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -28,9 +27,9 @@ const Footer = () => {
                             <Link className="rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:text-pink-600" to="/contact">
                                 Contact
                             </Link>
-                            <a className="rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:text-pink-600" href={Resume} download="Samuel_Beal_Resume.pdf">
+                            <Link className="rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:text-pink-600" to="/resume">
                                 Resume
-                            </a>
+                            </Link>
                         </div>
                     </div>
 

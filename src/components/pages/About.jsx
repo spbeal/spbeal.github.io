@@ -17,13 +17,12 @@ const About = () => {
           <div className="grid items-center gap-12 lg:grid-cols-[1.2fr,0.8fr]">
             <div>
               <span className="section-eyebrow">About</span>
-              <h1 className="section-title">Software engineer focused on useful, dependable systems.</h1>
+              <h1 className="section-title">Samuel Beal</h1>
               <p className="section-copy max-w-2xl text-center lg:text-left">
                 I am an Associate Software Engineer at SEL with a strong interest in
                 building software that feels useful the moment someone touches it. I enjoy
                 moving between frontend product work, backend systems, automation, and the
-                engineering details that make an application dependable. Lately, I have also
-                been exploring investing workflows and trading-bot experiments.
+                engineering details that make an application reliable and easy to use.
               </p>
 
               <div className="mt-8 flex justify-center gap-4 lg:justify-start">

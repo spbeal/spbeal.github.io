@@ -12,6 +12,7 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import NotFound from "./components/NotFound";
 import Experience from "./components/pages/Experience";
+import Resume from "./components/pages/Resume";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/resume" element={<Resume />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

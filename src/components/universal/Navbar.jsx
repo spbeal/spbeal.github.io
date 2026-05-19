@@ -73,6 +73,11 @@ const Navbar = () => {
                   Portfolio
                 </Link>
               </li>
+              <li className='px-0'>
+                <Link className="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white" to="/resume">
+                  Resume
+                </Link>
+              </li>
             </ul>
           </nav>
 
@@ -129,6 +134,11 @@ const Navbar = () => {
           <li className='px-0'>
             <Link className="block rounded-2xl px-4 py-4 text-lg font-semibold hover:bg-white/10" onClick={handleClick} to="/portfolio">
               Portfolio
+            </Link>
+          </li>
+          <li className='px-0'>
+            <Link className="block rounded-2xl px-4 py-4 text-lg font-semibold hover:bg-white/10" onClick={handleClick} to="/resume">
+              Resume
             </Link>
           </li>
         </ul>

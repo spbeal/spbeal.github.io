@@ -6,17 +6,17 @@
 
 :root {
   --page-ink: #14213d;
-  --page-muted: #52607a;
-  --page-panel: rgba(255, 255, 255, 0.78);
-  --page-panel-strong: rgba(255, 255, 255, 0.92);
-  --page-line: rgba(20, 33, 61, 0.1);
+  --page-muted: #46536c;
+  --page-panel: rgba(255, 255, 255, 0.9);
+  --page-panel-strong: rgba(255, 255, 255, 0.97);
+  --page-line: rgba(20, 33, 61, 0.18);
   --page-accent: #db2777;
   --page-accent-soft: rgba(219, 39, 119, 0.14);
-  --chip-neutral-bg: rgba(255, 255, 255, 0.56);
-  --chip-neutral-border: rgba(148, 163, 184, 0.16);
-  --chip-neutral-text: #5f6b81;
-  --chip-accent-bg: rgba(244, 114, 182, 0.1);
-  --chip-accent-border: rgba(244, 114, 182, 0.16);
+  --chip-neutral-bg: rgba(255, 255, 255, 0.88);
+  --chip-neutral-border: rgba(71, 85, 105, 0.34);
+  --chip-neutral-text: #334155;
+  --chip-accent-bg: rgba(244, 114, 182, 0.16);
+  --chip-accent-border: rgba(219, 39, 119, 0.26);
   --chip-accent-text: #be185d;
 }
 
@@ -45,9 +45,9 @@ html.dark {
     @apply font-[Raleway];
     color: var(--page-ink);
     background:
-      radial-gradient(circle at top left, rgba(251, 191, 36, 0.22), transparent 28%),
-      radial-gradient(circle at top right, rgba(219, 39, 119, 0.14), transparent 32%),
-      linear-gradient(180deg, #fff8f3 0%, #f6f7fb 42%, #eef2f8 100%);
+      radial-gradient(circle at top left, rgba(251, 191, 36, 0.3), transparent 28%),
+      radial-gradient(circle at top right, rgba(219, 39, 119, 0.2), transparent 32%),
+      linear-gradient(180deg, #fff6ed 0%, #f6f8fc 42%, #e8eef8 100%);
     min-height: 100vh;
     transition: background 220ms ease, color 220ms ease;
   }
@@ -79,8 +79,8 @@ html.dark {
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.78), transparent 22%),
-      radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.55), transparent 18%);
+      radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.62), transparent 22%),
+      radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.42), transparent 18%);
     pointer-events: none;
   }
 
@@ -114,15 +114,15 @@ html.dark {
   .surface-card {
     background: var(--page-panel);
     border: 1px solid var(--page-line);
-    box-shadow: 0 22px 55px rgba(148, 163, 184, 0.18);
+    box-shadow: 0 22px 55px rgba(71, 85, 105, 0.2);
     backdrop-filter: blur(14px);
     transition: background 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
   }
 
   .soft-grid {
     background-image:
-      linear-gradient(rgba(20, 33, 61, 0.045) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(20, 33, 61, 0.045) 1px, transparent 1px);
+      linear-gradient(rgba(20, 33, 61, 0.065) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(20, 33, 61, 0.065) 1px, transparent 1px);
     background-size: 24px 24px;
     background-position: center;
   }

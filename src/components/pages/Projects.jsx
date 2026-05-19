@@ -41,20 +41,19 @@ const projectNotes = {
       </>
     )
   },
-  "crypto-trading-bot": {
-    title: "Crypto Trading Bot Notes",
+  "coinbase-trading-bot": {
+    title: "Coinbase Trading Bot Notes",
     date: "2025",
     content: (
       <>
         <p>
           This project has been part engineering sandbox and part research notebook. The main
-          goal has been building workflows that are measurable, automated, and disciplined rather
-          than purely reactive.
+          goal has been building workflows that are measurable, automated, and disciplined to create consistent outcomes & profit.
         </p>
         <ul className="mt-4 list-disc space-y-2 pl-5">
-          <li>Worked with AWS EC2 and Lambda for deployment experiments</li>
           <li>Integrated Coinbase, Alpaca, and Binance APIs & websockets for data and execution workflows</li>
-          <li>Used Python, Pandas, scikit-learn and other tools to evaluate strategy ideas</li>
+          <li>Worked with AWS EC2 and Lambda for deployment experiments</li>
+          <li>Used Python, Pandas, scikit-learn and other tools to evaluate strategy ideas (including AI)</li>
           <li>Built backtesting and live-trading flows with risk management in mind</li>
         </ul>
       </>
@@ -106,14 +105,14 @@ const Projects = () => {
             <StyledOverlay />
             <StyledContent>
               <h2 className="text-2xl font-bold text-white tracking-wider">
-                Crypto Trading Bot
+                Coinbase Trading Bot
               </h2>
               <p className="text-xl text-white">2025</p>
               <div className="min-w-[300px] mt-4 space-x-4">
                 <a href="https://sambeal.dev/stocks-and-crypto-utils/">
                   <StyledButton>Demo</StyledButton>
                 </a>
-                <StyledButton type="button" onClick={() => setActiveNoteKey("crypto-trading-bot")}>
+                <StyledButton type="button" onClick={() => setActiveNoteKey("coinbase-trading-bot")}>
                   Notes
                 </StyledButton>
               </div>

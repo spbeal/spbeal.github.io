@@ -20,7 +20,7 @@ const About = () => {
               <h1 className="section-title">Samuel Beal</h1>
               <p className="section-copy max-w-2xl text-center lg:text-left">
                 I am an Associate Software Engineer at SEL with a strong interest in
-                building software that feels useful the moment someone touches it. I enjoy
+                building software that feels valuable the moment someone touches it. I enjoy
                 moving between frontend product work, backend systems, automation, and the
                 engineering details that make an application reliable and easy to use.
               </p>

@@ -24,9 +24,9 @@ const HomeMain = () => {
               <p className="section-copy max-w-2xl lg:mx-0">
                 I am an Associate Software Engineer @ SEL who graduated from the University of
                 Idaho in Computer Science with a certificate in AI/ML. I enjoy building full-stack
-                projects using React, TS/JS, Golang, PureScript, Python, C++, C#, and SQL-backed
-                systems. When I am not working, I am usually out with friends, swing dancing,
-                playing rugby or water polo, or programming a new project.
+                projects using React, TypeScript, Golang, Python, C++, C#, PureScript, and SQL-backed
+                systems. When I am not working, I am usually out with friends,
+                playing rugby or water polo, swing dancing, or programming a new project.
               </p>
 
               <div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start">
